@@ -1,0 +1,180 @@
+{
+    "case_name": "test_call_wx_method",
+    "run_time": "20190627 21:57:58",
+    "test_type": "AppTest",
+    "case_doc": null,
+    "success": true,
+    "failures": "",
+    "errors": "",
+    "start_timestamp": 1561643878.237531,
+    "is_failure": false,
+    "is_error": false,
+    "module": "apptest",
+    "failed_line_num": -1,
+    "device": {
+        "system_info": {
+            "language": "zh_CN",
+            "wifiEnabled": true,
+            "safeArea": {
+                "bottom": 667,
+                "height": 667,
+                "top": 0,
+                "width": 375,
+                "left": 0,
+                "right": 375
+            },
+            "bluetoothEnabled": false,
+            "deviceOrientation": "portrait",
+            "locationAuthorized": true,
+            "screenHeight": 667,
+            "notificationSoundAuthorized": true,
+            "windowHeight": 603,
+            "version": "7.0.4",
+            "system": "iOS 12.3.1",
+            "fontSizeSetting": 17,
+            "notificationAuthorized": true,
+            "statusBarHeight": 20,
+            "windowWidth": 375,
+            "pixelRatio": 2,
+            "notificationBadgeAuthorized": true,
+            "model": "iPhone 6<iPhone7,2>",
+            "screenWidth": 375,
+            "batteryLevel": 100,
+            "locationEnabled": true,
+            "microphoneAuthorized": false,
+            "albumAuthorized": false,
+            "cameraAuthorized": true,
+            "notificationAlertAuthorized": true,
+            "brand": "iPhone",
+            "platform": "ios",
+            "SDKVersion": "2.7.2"
+        }
+    },
+    "log_filename": "test_call_wx_method.log",
+    "weapp_log_path": "weapp.log",
+    "page_data": {
+        "list": [
+            {
+                "id": "view",
+                "name": "\u89c6\u56fe\u5bb9\u5668",
+                "open": false,
+                "pages": [
+                    "view",
+                    "scroll-view",
+                    "swiper",
+                    "movable-view",
+                    "cover-view"
+                ]
+            },
+            {
+                "id": "content",
+                "name": "\u57fa\u7840\u5185\u5bb9",
+                "open": false,
+                "pages": [
+                    "text",
+                    "icon",
+                    "progress",
+                    "rich-text"
+                ]
+            },
+            {
+                "id": "form",
+                "name": "\u8868\u5355\u7ec4\u4ef6",
+                "open": false,
+                "pages": [
+                    "button",
+                    "checkbox",
+                    "form",
+                    "input",
+                    "label",
+                    "picker",
+                    "picker-view",
+                    "radio",
+                    "slider",
+                    "switch",
+                    "textarea"
+                ]
+            },
+            {
+                "id": "nav",
+                "name": "\u5bfc\u822a",
+                "open": false,
+                "pages": [
+                    "navigator"
+                ]
+            },
+            {
+                "id": "media",
+                "name": "\u5a92\u4f53\u7ec4\u4ef6",
+                "open": false,
+                "pages": [
+                    "image",
+                    "audio",
+                    "video",
+                    "camera"
+                ]
+            },
+            {
+                "id": "map",
+                "name": "\u5730\u56fe",
+                "open": false,
+                "pages": [
+                    "map"
+                ]
+            },
+            {
+                "id": "canvas",
+                "name": "\u753b\u5e03",
+                "open": false,
+                "pages": [
+                    "canvas"
+                ]
+            },
+            {
+                "id": "open",
+                "name": "\u5f00\u653e\u80fd\u529b",
+                "open": false,
+                "pages": [
+                    "ad",
+                    "open-data",
+                    "web-view"
+                ]
+            }
+        ]
+    },
+    "source": {
+        "code": [
+            "    def test_call_wx_method(self):\n",
+            "        sys_info = self.app.call_wx_method(\"getSystemInfo\")\n",
+            "        self.assertIn(\"SDKVersion\", sys_info.result.result)\n"
+        ],
+        "start": 7
+    },
+    "stop_timestamp": 1561643882.208396,
+    "check_list": [],
+    "assert_list": [
+        {
+            "name": null,
+            "ret": true,
+            "msg": null,
+            "img": null
+        }
+    ],
+    "screen_info": [
+        {
+            "name": "None-success",
+            "url": "/page/component/index",
+            "path": "images/215800.771.jpg",
+            "ts": 1561643880.9853382,
+            "datetime": "2019-06-27 21:58:00"
+        },
+        {
+            "name": "teardown",
+            "url": "/page/component/index",
+            "path": "images/215801.989.jpg",
+            "ts": 1561643882.205605,
+            "datetime": "2019-06-27 21:58:02"
+        }
+    ],
+    "filename": "test_call_wx_method.json"
+}

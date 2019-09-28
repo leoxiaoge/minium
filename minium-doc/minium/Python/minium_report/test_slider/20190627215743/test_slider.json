@@ -1,0 +1,80 @@
+{
+    "case_name": "test_slider",
+    "run_time": "20190627 21:57:43",
+    "test_type": "ComponentTest",
+    "case_doc": null,
+    "success": true,
+    "failures": "",
+    "errors": "",
+    "start_timestamp": 1561643863.141824,
+    "is_failure": false,
+    "is_error": false,
+    "module": "componenttest",
+    "failed_line_num": -1,
+    "device": {
+        "system_info": {
+            "language": "zh_CN",
+            "wifiEnabled": true,
+            "safeArea": {
+                "bottom": 667,
+                "height": 647,
+                "top": 20,
+                "width": 375,
+                "left": 0,
+                "right": 375
+            },
+            "bluetoothEnabled": false,
+            "deviceOrientation": "portrait",
+            "locationAuthorized": true,
+            "screenHeight": 667,
+            "notificationSoundAuthorized": true,
+            "windowHeight": 555,
+            "version": "7.0.4",
+            "system": "iOS 12.3.1",
+            "fontSizeSetting": 17,
+            "notificationAuthorized": true,
+            "statusBarHeight": 20,
+            "windowWidth": 375,
+            "pixelRatio": 2,
+            "notificationBadgeAuthorized": true,
+            "model": "iPhone 6<iPhone7,2>",
+            "screenWidth": 375,
+            "batteryLevel": 100,
+            "locationEnabled": true,
+            "microphoneAuthorized": false,
+            "albumAuthorized": false,
+            "cameraAuthorized": true,
+            "notificationAlertAuthorized": true,
+            "brand": "iPhone",
+            "platform": "ios",
+            "SDKVersion": "2.7.2"
+        }
+    },
+    "log_filename": "test_slider.log",
+    "weapp_log_path": "weapp.log",
+    "page_data": {},
+    "source": {
+        "code": [
+            "    def test_slider(self):\n",
+            "        self.app.navigate_to(\"pages/slider/slider\")\n",
+            "        e = self.page.get_element(\"slider\")\n",
+            "        e.trigger(\"change\", {\"value\": 10})\n",
+            "        e.trigger(\"change\", {\"value\": 30})\n",
+            "        e.trigger(\"change\", {\"value\": 80})\n"
+        ],
+        "start": 43
+    },
+    "stop_timestamp": 1561643867.707446,
+    "check_list": [],
+    "assert_list": [],
+    "screen_info": [
+        {
+            "name": "teardown",
+            "url": "/page/component/pages/slider/slider",
+            "path": "images/215747.526.jpg",
+            "ts": 1561643867.705075,
+            "datetime": "2019-06-27 21:57:47"
+        }
+    ],
+    "filename": "test_slider.json"
+}

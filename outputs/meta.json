@@ -1,0 +1,2832 @@
+{
+    "case_datas": [
+        {
+            "case_name": "test_get_system_info",
+            "run_time": "20190920 17:07:39",
+            "test_type": "FirsTest",
+            "case_doc": null,
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568970459.2329433,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 812,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_get_system_info.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "lcard_no": "",
+                "input_msg": "\u8bf7\u8f93\u5165\u6216\u626b\u63cf\u60a8\u7684\u9501\u724c\u53f7",
+                "list": {
+                    "req_cardno": "001",
+                    "services": [
+                        {
+                            "accept_time_str": "04/01 18:16",
+                            "add_time": "2019-04-01T16:14:50.977",
+                            "add_time_str": "04/01 16:14",
+                            "allow_evaluate": 0,
+                            "allow_hurry": 0,
+                            "begin_clockup_time": null,
+                            "begin_time_str": "04/01 18:16",
+                            "begintime": null,
+                            "buy_num": 1,
+                            "cater_state": 0,
+                            "class_type": 1,
+                            "clockend_time": null,
+                            "end_time_str": "04/01 18:16",
+                            "endtime": null,
+                            "id": 4257246,
+                            "index": 1,
+                            "is_evaluate": 0,
+                            "order_service_id": 4257246,
+                            "order_type": 1,
+                            "over_time": "04/01 18:16",
+                            "package_select_type": null,
+                            "pay_price": 298,
+                            "pay_state": 1,
+                            "paystate_price_str": null,
+                            "real_price": 298,
+                            "sale_price": 298,
+                            "service_class": -2,
+                            "service_minute": 0,
+                            "service_title": "\u9648\u9999\u666e\u6d31\uff08\u9053\uff09",
+                            "services": null,
+                            "state": "\u5df2\u51fa\u54c1",
+                            "state_int": 12,
+                            "surplusminute": 0,
+                            "tech": "",
+                            "tech_select_type_name": "",
+                            "useminute": 0,
+                            "pic": "http://r.handnear.com/wx_miniProgram/image/item.png"
+                        },
+                        {
+                            "accept_time_str": "04/01 18:16",
+                            "add_time": "2019-04-01T16:14:50.977",
+                            "add_time_str": "04/01 16:14",
+                            "allow_evaluate": 0,
+                            "allow_hurry": 0,
+                            "begin_clockup_time": null,
+                            "begin_time_str": "04/01 18:16",
+                            "begintime": null,
+                            "buy_num": 1,
+                            "cater_state": 0,
+                            "class_type": 1,
+                            "clockend_time": null,
+                            "end_time_str": "04/01 18:16",
+                            "endtime": null,
+                            "id": 4257246,
+                            "index": 1,
+                            "is_evaluate": 0,
+                            "order_service_id": 4257246,
+                            "order_type": 1,
+                            "over_time": "04/01 18:16",
+                            "package_select_type": null,
+                            "pay_price": 298,
+                            "pay_state": 1,
+                            "paystate_price_str": null,
+                            "real_price": 298,
+                            "sale_price": 298,
+                            "service_class": -2,
+                            "service_minute": 0,
+                            "service_title": "\u9648\u9999\u666e\u6d31\uff08\u9053\uff09",
+                            "services": null,
+                            "state": "\u5df2\u51fa\u54c1",
+                            "state_int": 12,
+                            "surplusminute": 0,
+                            "tech": "",
+                            "tech_select_type_name": "",
+                            "useminute": 0,
+                            "pic": "http://r.handnear.com/wx_miniProgram/image/item.png"
+                        }
+                    ]
+                }
+            },
+            "source": {
+                "code": [
+                    "  def test_get_system_info(self):\n",
+                    "    sys_info = self.app.call_wx_method(\"getSystemInfo\")\n",
+                    "    self.assertIn(\"SDKVersion\", sys_info.result.result)\n"
+                ],
+                "start": 5
+            },
+            "stop_timestamp": 1568970461.3119717,
+            "check_list": [],
+            "assert_list": [
+                {
+                    "name": null,
+                    "ret": true,
+                    "msg": null,
+                    "img": null
+                }
+            ],
+            "screen_info": [],
+            "filename": "test_get_system_info.json",
+            "relative": "test_get_system_info\\20190920170739"
+        },
+        {
+            "case_name": "test_modal",
+            "run_time": "20190920 17:07:41",
+            "test_type": "FirsTest",
+            "case_doc": "\u64cd\u4f5c\u539f\u751fmodal\u5b9e\u4f8b\n",
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568970461.3159423,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 812,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_modal.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "lcard_no": "",
+                "input_msg": "\u8bf7\u8f93\u5165\u6216\u626b\u63cf\u60a8\u7684\u9501\u724c\u53f7",
+                "list": {
+                    "req_cardno": "001",
+                    "services": [
+                        {
+                            "accept_time_str": "04/01 18:16",
+                            "add_time": "2019-04-01T16:14:50.977",
+                            "add_time_str": "04/01 16:14",
+                            "allow_evaluate": 0,
+                            "allow_hurry": 0,
+                            "begin_clockup_time": null,
+                            "begin_time_str": "04/01 18:16",
+                            "begintime": null,
+                            "buy_num": 1,
+                            "cater_state": 0,
+                            "class_type": 1,
+                            "clockend_time": null,
+                            "end_time_str": "04/01 18:16",
+                            "endtime": null,
+                            "id": 4257246,
+                            "index": 1,
+                            "is_evaluate": 0,
+                            "order_service_id": 4257246,
+                            "order_type": 1,
+                            "over_time": "04/01 18:16",
+                            "package_select_type": null,
+                            "pay_price": 298,
+                            "pay_state": 1,
+                            "paystate_price_str": null,
+                            "real_price": 298,
+                            "sale_price": 298,
+                            "service_class": -2,
+                            "service_minute": 0,
+                            "service_title": "\u9648\u9999\u666e\u6d31\uff08\u9053\uff09",
+                            "services": null,
+                            "state": "\u5df2\u51fa\u54c1",
+                            "state_int": 12,
+                            "surplusminute": 0,
+                            "tech": "",
+                            "tech_select_type_name": "",
+                            "useminute": 0,
+                            "pic": "http://r.handnear.com/wx_miniProgram/image/item.png"
+                        },
+                        {
+                            "accept_time_str": "04/01 18:16",
+                            "add_time": "2019-04-01T16:14:50.977",
+                            "add_time_str": "04/01 16:14",
+                            "allow_evaluate": 0,
+                            "allow_hurry": 0,
+                            "begin_clockup_time": null,
+                            "begin_time_str": "04/01 18:16",
+                            "begintime": null,
+                            "buy_num": 1,
+                            "cater_state": 0,
+                            "class_type": 1,
+                            "clockend_time": null,
+                            "end_time_str": "04/01 18:16",
+                            "endtime": null,
+                            "id": 4257246,
+                            "index": 1,
+                            "is_evaluate": 0,
+                            "order_service_id": 4257246,
+                            "order_type": 1,
+                            "over_time": "04/01 18:16",
+                            "package_select_type": null,
+                            "pay_price": 298,
+                            "pay_state": 1,
+                            "paystate_price_str": null,
+                            "real_price": 298,
+                            "sale_price": 298,
+                            "service_class": -2,
+                            "service_minute": 0,
+                            "service_title": "\u9648\u9999\u666e\u6d31\uff08\u9053\uff09",
+                            "services": null,
+                            "state": "\u5df2\u51fa\u54c1",
+                            "state_int": 12,
+                            "surplusminute": 0,
+                            "tech": "",
+                            "tech_select_type_name": "",
+                            "useminute": 0,
+                            "pic": "http://r.handnear.com/wx_miniProgram/image/item.png"
+                        }
+                    ]
+                }
+            },
+            "source": {
+                "code": [
+                    "  def test_modal(self):\n",
+                    "    \"\"\"\n",
+                    "    \u64cd\u4f5c\u539f\u751fmodal\u5b9e\u4f8b\n",
+                    "    \"\"\"\n",
+                    "    self.app.navigate_to(\"/pages/selfservice/orderSelf/historyOrder/historyOrder\")\n",
+                    "    self.page.get_element(\"button\").click()\n"
+                ],
+                "start": 8
+            },
+            "stop_timestamp": 1568970468.6669424,
+            "check_list": [],
+            "assert_list": [],
+            "screen_info": [],
+            "filename": "test_modal.json",
+            "relative": "test_modal\\20190920170741"
+        },
+        {
+            "case_name": "test_get_system_info",
+            "run_time": "20190920 17:09:37",
+            "test_type": "FirsTest",
+            "case_doc": null,
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568970577.2016714,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 812,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_get_system_info.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "lcard_no": "",
+                "input_msg": "\u8bf7\u8f93\u5165\u6216\u626b\u63cf\u60a8\u7684\u9501\u724c\u53f7",
+                "list": {
+                    "req_cardno": "001",
+                    "services": [
+                        {
+                            "accept_time_str": "04/01 18:16",
+                            "add_time": "2019-04-01T16:14:50.977",
+                            "add_time_str": "04/01 16:14",
+                            "allow_evaluate": 0,
+                            "allow_hurry": 0,
+                            "begin_clockup_time": null,
+                            "begin_time_str": "04/01 18:16",
+                            "begintime": null,
+                            "buy_num": 1,
+                            "cater_state": 0,
+                            "class_type": 1,
+                            "clockend_time": null,
+                            "end_time_str": "04/01 18:16",
+                            "endtime": null,
+                            "id": 4257246,
+                            "index": 1,
+                            "is_evaluate": 0,
+                            "order_service_id": 4257246,
+                            "order_type": 1,
+                            "over_time": "04/01 18:16",
+                            "package_select_type": null,
+                            "pay_price": 298,
+                            "pay_state": 1,
+                            "paystate_price_str": null,
+                            "real_price": 298,
+                            "sale_price": 298,
+                            "service_class": -2,
+                            "service_minute": 0,
+                            "service_title": "\u9648\u9999\u666e\u6d31\uff08\u9053\uff09",
+                            "services": null,
+                            "state": "\u5df2\u51fa\u54c1",
+                            "state_int": 12,
+                            "surplusminute": 0,
+                            "tech": "",
+                            "tech_select_type_name": "",
+                            "useminute": 0,
+                            "pic": "http://r.handnear.com/wx_miniProgram/image/item.png"
+                        },
+                        {
+                            "accept_time_str": "04/01 18:16",
+                            "add_time": "2019-04-01T16:14:50.977",
+                            "add_time_str": "04/01 16:14",
+                            "allow_evaluate": 0,
+                            "allow_hurry": 0,
+                            "begin_clockup_time": null,
+                            "begin_time_str": "04/01 18:16",
+                            "begintime": null,
+                            "buy_num": 1,
+                            "cater_state": 0,
+                            "class_type": 1,
+                            "clockend_time": null,
+                            "end_time_str": "04/01 18:16",
+                            "endtime": null,
+                            "id": 4257246,
+                            "index": 1,
+                            "is_evaluate": 0,
+                            "order_service_id": 4257246,
+                            "order_type": 1,
+                            "over_time": "04/01 18:16",
+                            "package_select_type": null,
+                            "pay_price": 298,
+                            "pay_state": 1,
+                            "paystate_price_str": null,
+                            "real_price": 298,
+                            "sale_price": 298,
+                            "service_class": -2,
+                            "service_minute": 0,
+                            "service_title": "\u9648\u9999\u666e\u6d31\uff08\u9053\uff09",
+                            "services": null,
+                            "state": "\u5df2\u51fa\u54c1",
+                            "state_int": 12,
+                            "surplusminute": 0,
+                            "tech": "",
+                            "tech_select_type_name": "",
+                            "useminute": 0,
+                            "pic": "http://r.handnear.com/wx_miniProgram/image/item.png"
+                        }
+                    ]
+                }
+            },
+            "source": {
+                "code": [
+                    "  def test_get_system_info(self):\n",
+                    "    sys_info = self.app.call_wx_method(\"getSystemInfo\")\n",
+                    "    self.assertIn(\"SDKVersion\", sys_info.result.result)\n"
+                ],
+                "start": 5
+            },
+            "stop_timestamp": 1568970579.3027427,
+            "check_list": [],
+            "assert_list": [
+                {
+                    "name": null,
+                    "ret": true,
+                    "msg": null,
+                    "img": null
+                }
+            ],
+            "screen_info": [],
+            "filename": "test_get_system_info.json",
+            "relative": "test_get_system_info\\20190920170937"
+        },
+        {
+            "case_name": "test_modal",
+            "run_time": "20190920 17:09:39",
+            "test_type": "FirsTest",
+            "case_doc": "\u64cd\u4f5c\u539f\u751fmodal\u5b9e\u4f8b\n",
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568970579.306711,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 812,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_modal.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "lcard_no": "",
+                "input_msg": "\u8bf7\u8f93\u5165\u6216\u626b\u63cf\u60a8\u7684\u9501\u724c\u53f7",
+                "list": {
+                    "req_cardno": "001",
+                    "services": [
+                        {
+                            "accept_time_str": "04/01 18:16",
+                            "add_time": "2019-04-01T16:14:50.977",
+                            "add_time_str": "04/01 16:14",
+                            "allow_evaluate": 0,
+                            "allow_hurry": 0,
+                            "begin_clockup_time": null,
+                            "begin_time_str": "04/01 18:16",
+                            "begintime": null,
+                            "buy_num": 1,
+                            "cater_state": 0,
+                            "class_type": 1,
+                            "clockend_time": null,
+                            "end_time_str": "04/01 18:16",
+                            "endtime": null,
+                            "id": 4257246,
+                            "index": 1,
+                            "is_evaluate": 0,
+                            "order_service_id": 4257246,
+                            "order_type": 1,
+                            "over_time": "04/01 18:16",
+                            "package_select_type": null,
+                            "pay_price": 298,
+                            "pay_state": 1,
+                            "paystate_price_str": null,
+                            "real_price": 298,
+                            "sale_price": 298,
+                            "service_class": -2,
+                            "service_minute": 0,
+                            "service_title": "\u9648\u9999\u666e\u6d31\uff08\u9053\uff09",
+                            "services": null,
+                            "state": "\u5df2\u51fa\u54c1",
+                            "state_int": 12,
+                            "surplusminute": 0,
+                            "tech": "",
+                            "tech_select_type_name": "",
+                            "useminute": 0,
+                            "pic": "http://r.handnear.com/wx_miniProgram/image/item.png"
+                        },
+                        {
+                            "accept_time_str": "04/01 18:16",
+                            "add_time": "2019-04-01T16:14:50.977",
+                            "add_time_str": "04/01 16:14",
+                            "allow_evaluate": 0,
+                            "allow_hurry": 0,
+                            "begin_clockup_time": null,
+                            "begin_time_str": "04/01 18:16",
+                            "begintime": null,
+                            "buy_num": 1,
+                            "cater_state": 0,
+                            "class_type": 1,
+                            "clockend_time": null,
+                            "end_time_str": "04/01 18:16",
+                            "endtime": null,
+                            "id": 4257246,
+                            "index": 1,
+                            "is_evaluate": 0,
+                            "order_service_id": 4257246,
+                            "order_type": 1,
+                            "over_time": "04/01 18:16",
+                            "package_select_type": null,
+                            "pay_price": 298,
+                            "pay_state": 1,
+                            "paystate_price_str": null,
+                            "real_price": 298,
+                            "sale_price": 298,
+                            "service_class": -2,
+                            "service_minute": 0,
+                            "service_title": "\u9648\u9999\u666e\u6d31\uff08\u9053\uff09",
+                            "services": null,
+                            "state": "\u5df2\u51fa\u54c1",
+                            "state_int": 12,
+                            "surplusminute": 0,
+                            "tech": "",
+                            "tech_select_type_name": "",
+                            "useminute": 0,
+                            "pic": "http://r.handnear.com/wx_miniProgram/image/item.png"
+                        }
+                    ]
+                }
+            },
+            "source": {
+                "code": [
+                    "  def test_modal(self):\n",
+                    "    \"\"\"\n",
+                    "    \u64cd\u4f5c\u539f\u751fmodal\u5b9e\u4f8b\n",
+                    "    \"\"\"\n",
+                    "    self.app.navigate_to(\"/pages/selfservice/orderSelf/historyOrder/historyOrder\")\n",
+                    "    self.page.get_element(\"button\").click()\n"
+                ],
+                "start": 8
+            },
+            "stop_timestamp": 1568970586.6627126,
+            "check_list": [],
+            "assert_list": [],
+            "screen_info": [],
+            "filename": "test_modal.json",
+            "relative": "test_modal\\20190920170939"
+        },
+        {
+            "case_name": "test_get_system_info",
+            "run_time": "20190920 17:23:58",
+            "test_type": "FirsTest",
+            "case_doc": null,
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568971438.1993306,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 812,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_get_system_info.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "lcard_no": "",
+                "input_msg": "\u8bf7\u8f93\u5165\u6216\u626b\u63cf\u60a8\u7684\u9501\u724c\u53f7",
+                "list": {
+                    "req_cardno": "001",
+                    "services": [
+                        {
+                            "accept_time_str": "04/01 18:16",
+                            "add_time": "2019-04-01T16:14:50.977",
+                            "add_time_str": "04/01 16:14",
+                            "allow_evaluate": 0,
+                            "allow_hurry": 0,
+                            "begin_clockup_time": null,
+                            "begin_time_str": "04/01 18:16",
+                            "begintime": null,
+                            "buy_num": 1,
+                            "cater_state": 0,
+                            "class_type": 1,
+                            "clockend_time": null,
+                            "end_time_str": "04/01 18:16",
+                            "endtime": null,
+                            "id": 4257246,
+                            "index": 1,
+                            "is_evaluate": 0,
+                            "order_service_id": 4257246,
+                            "order_type": 1,
+                            "over_time": "04/01 18:16",
+                            "package_select_type": null,
+                            "pay_price": 298,
+                            "pay_state": 1,
+                            "paystate_price_str": null,
+                            "real_price": 298,
+                            "sale_price": 298,
+                            "service_class": -2,
+                            "service_minute": 0,
+                            "service_title": "\u9648\u9999\u666e\u6d31\uff08\u9053\uff09",
+                            "services": null,
+                            "state": "\u5df2\u51fa\u54c1",
+                            "state_int": 12,
+                            "surplusminute": 0,
+                            "tech": "",
+                            "tech_select_type_name": "",
+                            "useminute": 0,
+                            "pic": "http://r.handnear.com/wx_miniProgram/image/item.png"
+                        },
+                        {
+                            "accept_time_str": "04/01 18:16",
+                            "add_time": "2019-04-01T16:14:50.977",
+                            "add_time_str": "04/01 16:14",
+                            "allow_evaluate": 0,
+                            "allow_hurry": 0,
+                            "begin_clockup_time": null,
+                            "begin_time_str": "04/01 18:16",
+                            "begintime": null,
+                            "buy_num": 1,
+                            "cater_state": 0,
+                            "class_type": 1,
+                            "clockend_time": null,
+                            "end_time_str": "04/01 18:16",
+                            "endtime": null,
+                            "id": 4257246,
+                            "index": 1,
+                            "is_evaluate": 0,
+                            "order_service_id": 4257246,
+                            "order_type": 1,
+                            "over_time": "04/01 18:16",
+                            "package_select_type": null,
+                            "pay_price": 298,
+                            "pay_state": 1,
+                            "paystate_price_str": null,
+                            "real_price": 298,
+                            "sale_price": 298,
+                            "service_class": -2,
+                            "service_minute": 0,
+                            "service_title": "\u9648\u9999\u666e\u6d31\uff08\u9053\uff09",
+                            "services": null,
+                            "state": "\u5df2\u51fa\u54c1",
+                            "state_int": 12,
+                            "surplusminute": 0,
+                            "tech": "",
+                            "tech_select_type_name": "",
+                            "useminute": 0,
+                            "pic": "http://r.handnear.com/wx_miniProgram/image/item.png"
+                        }
+                    ]
+                }
+            },
+            "source": {
+                "code": [
+                    "  def test_get_system_info(self):\n",
+                    "    sys_info = self.app.call_wx_method(\"getSystemInfo\")\n",
+                    "    self.assertIn(\"SDKVersion\", sys_info.result.result)\n"
+                ],
+                "start": 5
+            },
+            "stop_timestamp": 1568971440.4213288,
+            "check_list": [],
+            "assert_list": [
+                {
+                    "name": null,
+                    "ret": true,
+                    "msg": null,
+                    "img": null
+                }
+            ],
+            "screen_info": [],
+            "filename": "test_get_system_info.json",
+            "relative": "test_get_system_info\\20190920172358"
+        },
+        {
+            "case_name": "test_modal",
+            "run_time": "20190920 17:24:00",
+            "test_type": "FirsTest",
+            "case_doc": "\u64cd\u4f5c\u539f\u751fmodal\u5b9e\u4f8b\n",
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568971440.4263284,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 812,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_modal.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "lcard_no": "",
+                "input_msg": "\u8bf7\u8f93\u5165\u6216\u626b\u63cf\u60a8\u7684\u9501\u724c\u53f7",
+                "list": {
+                    "req_cardno": "001",
+                    "services": [
+                        {
+                            "accept_time_str": "04/01 18:16",
+                            "add_time": "2019-04-01T16:14:50.977",
+                            "add_time_str": "04/01 16:14",
+                            "allow_evaluate": 0,
+                            "allow_hurry": 0,
+                            "begin_clockup_time": null,
+                            "begin_time_str": "04/01 18:16",
+                            "begintime": null,
+                            "buy_num": 1,
+                            "cater_state": 0,
+                            "class_type": 1,
+                            "clockend_time": null,
+                            "end_time_str": "04/01 18:16",
+                            "endtime": null,
+                            "id": 4257246,
+                            "index": 1,
+                            "is_evaluate": 0,
+                            "order_service_id": 4257246,
+                            "order_type": 1,
+                            "over_time": "04/01 18:16",
+                            "package_select_type": null,
+                            "pay_price": 298,
+                            "pay_state": 1,
+                            "paystate_price_str": null,
+                            "real_price": 298,
+                            "sale_price": 298,
+                            "service_class": -2,
+                            "service_minute": 0,
+                            "service_title": "\u9648\u9999\u666e\u6d31\uff08\u9053\uff09",
+                            "services": null,
+                            "state": "\u5df2\u51fa\u54c1",
+                            "state_int": 12,
+                            "surplusminute": 0,
+                            "tech": "",
+                            "tech_select_type_name": "",
+                            "useminute": 0,
+                            "pic": "http://r.handnear.com/wx_miniProgram/image/item.png"
+                        },
+                        {
+                            "accept_time_str": "04/01 18:16",
+                            "add_time": "2019-04-01T16:14:50.977",
+                            "add_time_str": "04/01 16:14",
+                            "allow_evaluate": 0,
+                            "allow_hurry": 0,
+                            "begin_clockup_time": null,
+                            "begin_time_str": "04/01 18:16",
+                            "begintime": null,
+                            "buy_num": 1,
+                            "cater_state": 0,
+                            "class_type": 1,
+                            "clockend_time": null,
+                            "end_time_str": "04/01 18:16",
+                            "endtime": null,
+                            "id": 4257246,
+                            "index": 1,
+                            "is_evaluate": 0,
+                            "order_service_id": 4257246,
+                            "order_type": 1,
+                            "over_time": "04/01 18:16",
+                            "package_select_type": null,
+                            "pay_price": 298,
+                            "pay_state": 1,
+                            "paystate_price_str": null,
+                            "real_price": 298,
+                            "sale_price": 298,
+                            "service_class": -2,
+                            "service_minute": 0,
+                            "service_title": "\u9648\u9999\u666e\u6d31\uff08\u9053\uff09",
+                            "services": null,
+                            "state": "\u5df2\u51fa\u54c1",
+                            "state_int": 12,
+                            "surplusminute": 0,
+                            "tech": "",
+                            "tech_select_type_name": "",
+                            "useminute": 0,
+                            "pic": "http://r.handnear.com/wx_miniProgram/image/item.png"
+                        }
+                    ]
+                }
+            },
+            "source": {
+                "code": [
+                    "  def test_modal(self):\n",
+                    "    \"\"\"\n",
+                    "    \u64cd\u4f5c\u539f\u751fmodal\u5b9e\u4f8b\n",
+                    "    \"\"\"\n",
+                    "    self.app.navigate_to(\"/pages/selfservice/orderSelf/historyOrder/historyOrder\")\n",
+                    "    self.page.get_element(\"button\").click()\n"
+                ],
+                "start": 8
+            },
+            "stop_timestamp": 1568971447.7813325,
+            "check_list": [],
+            "assert_list": [],
+            "screen_info": [],
+            "filename": "test_modal.json",
+            "relative": "test_modal\\20190920172400"
+        },
+        {
+            "case_name": "test_get_system_info",
+            "run_time": "20190920 18:22:17",
+            "test_type": "FirsTest",
+            "case_doc": null,
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568974937.2534275,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_get_system_info.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "isShow": true,
+                "account": "",
+                "weSession_key": "2cb436a7d5dcf8297245107ea6d5daaa"
+            },
+            "source": {
+                "code": [
+                    "  def test_get_system_info(self):\n",
+                    "    sys_info = self.app.call_wx_method(\"getSystemInfo\")\n",
+                    "    self.assertIn(\"SDKVersion\", sys_info.result.result)\n"
+                ],
+                "start": 5
+            },
+            "stop_timestamp": 1568974939.326457,
+            "check_list": [],
+            "assert_list": [
+                {
+                    "name": null,
+                    "ret": true,
+                    "msg": null,
+                    "img": null
+                }
+            ],
+            "screen_info": [],
+            "filename": "test_get_system_info.json",
+            "relative": "test_get_system_info\\20190920182217"
+        },
+        {
+            "case_name": "test_modal",
+            "run_time": "20190920 18:22:19",
+            "test_type": "FirsTest",
+            "case_doc": "\u64cd\u4f5c\u539f\u751fmodal\u5b9e\u4f8b\n",
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568974939.330425,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_modal.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "isShow": true,
+                "account": "",
+                "weSession_key": "2cb436a7d5dcf8297245107ea6d5daaa"
+            },
+            "source": {
+                "code": [
+                    "  def test_modal(self):\n",
+                    "    \"\"\"\n",
+                    "    \u64cd\u4f5c\u539f\u751fmodal\u5b9e\u4f8b\n",
+                    "    \"\"\"\n",
+                    "    self.app.navigate_to(\"/pages/selfservice/orderSelf/historyOrder/historyOrder\")\n",
+                    "    self.page.get_element(\"button\").click()\n"
+                ],
+                "start": 8
+            },
+            "stop_timestamp": 1568974946.7484288,
+            "check_list": [],
+            "assert_list": [],
+            "screen_info": [],
+            "filename": "test_modal.json",
+            "relative": "test_modal\\20190920182219"
+        },
+        {
+            "case_name": "test_ui_op",
+            "run_time": "20190920 18:22:26",
+            "test_type": "FirsTest",
+            "case_doc": null,
+            "success": false,
+            "failures": "",
+            "errors": "Traceback (most recent call last):\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n  File \"G:\\\u5fae\u4fe1\u5c0f\u7a0b\u5e8f\\minium-0.0.2\\minium-0.0.2\\first_test.py\", line 15, in test_ui_op\n    self.page.get_element(\"view\", inner_test=\"\u89c6\u56fe\u5bb9\u5668\").click()\n  File \"D:\\Program Files\\Python37\\lib\\site-packages\\minium-0.0.2-py3.7.egg\\minium\\wechatdriver\\minium_log.py\", line 63, in wrapper\n    result=func(*args,**kwargs)\nTypeError: get_element() got an unexpected keyword argument 'inner_test'\n",
+            "start_timestamp": 1568974946.7524312,
+            "is_failure": false,
+            "is_error": true,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": 15,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_ui_op.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "isShow": true,
+                "account": "",
+                "weSession_key": "2cb436a7d5dcf8297245107ea6d5daaa"
+            },
+            "source": {
+                "code": [
+                    "  def test_ui_op(self):\n",
+                    "    self.page.get_element(\"view\", inner_test=\"\u89c6\u56fe\u5bb9\u5668\").click()\n",
+                    "    self.page.get_element(\".navigator-text\", inner_test=\"swiper\").click()\n",
+                    "    self.page.get_element(\"switch\")[0].click()\n",
+                    "    self.page.get_element(\"switch\")[1].click()\n"
+                ],
+                "start": 14
+            },
+            "stop_timestamp": 1568974947.7994258,
+            "check_list": [],
+            "assert_list": [],
+            "screen_info": [],
+            "filename": "test_ui_op.json",
+            "relative": "test_ui_op\\20190920182226"
+        },
+        {
+            "case_name": "test_get_system_info",
+            "run_time": "20190920 18:24:38",
+            "test_type": "FirsTest",
+            "case_doc": null,
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568975078.9834297,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_get_system_info.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "isShow": true,
+                "account": "",
+                "weSession_key": "2cb436a7d5dcf8297245107ea6d5daaa"
+            },
+            "source": {
+                "code": [
+                    "  def test_get_system_info(self):\n",
+                    "    sys_info = self.app.call_wx_method(\"getSystemInfo\")\n",
+                    "    self.assertIn(\"SDKVersion\", sys_info.result.result)\n"
+                ],
+                "start": 5
+            },
+            "stop_timestamp": 1568975081.0524247,
+            "check_list": [],
+            "assert_list": [
+                {
+                    "name": null,
+                    "ret": true,
+                    "msg": null,
+                    "img": null
+                }
+            ],
+            "screen_info": [],
+            "filename": "test_get_system_info.json",
+            "relative": "test_get_system_info\\20190920182438"
+        },
+        {
+            "case_name": "test_modal",
+            "run_time": "20190920 18:24:41",
+            "test_type": "FirsTest",
+            "case_doc": "\u64cd\u4f5c\u539f\u751fmodal\u5b9e\u4f8b\n",
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568975081.056439,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_modal.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "isShow": true,
+                "account": "",
+                "weSession_key": "2cb436a7d5dcf8297245107ea6d5daaa"
+            },
+            "source": {
+                "code": [
+                    "  def test_modal(self):\n",
+                    "    \"\"\"\n",
+                    "    \u64cd\u4f5c\u539f\u751fmodal\u5b9e\u4f8b\n",
+                    "    \"\"\"\n",
+                    "    self.app.navigate_to(\"/pages/selfservice/orderSelf/historyOrder/historyOrder\")\n",
+                    "    self.page.get_element(\"button\").click()\n"
+                ],
+                "start": 8
+            },
+            "stop_timestamp": 1568975088.4164295,
+            "check_list": [],
+            "assert_list": [],
+            "screen_info": [],
+            "filename": "test_modal.json",
+            "relative": "test_modal\\20190920182441"
+        },
+        {
+            "case_name": "test_assert_failed",
+            "run_time": "20190920 18:25:36",
+            "test_type": "FirsTest",
+            "case_doc": "\u6d4b\u8bd5assert\u5f02\u5e38\n",
+            "success": false,
+            "failures": "Traceback (most recent call last):\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n  File \"G:\\\u5fae\u4fe1\u5c0f\u7a0b\u5e8f\\minium-0.0.2\\minium-0.0.2\\first_test.py\", line 20, in test_assert_failed\n    self.assertEqual(self.page.path, \"page/component/index\")\n  File \"D:\\Program Files\\Python37\\lib\\site-packages\\minium-0.0.2-py3.7.egg\\minium\\framework\\assertbase.py\", line 170, in _hook_assert\n    attr(*args,**kwargs)\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 839, in assertEqual\n    assertion_func(first, second, msg=msg)\n  File \"D:\\Program Files\\Python37\\lib\\site-packages\\minium-0.0.2-py3.7.egg\\minium\\framework\\assertbase.py\", line 170, in _hook_assert\n    attr(*args,**kwargs)\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 1220, in assertMultiLineEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 680, in fail\n    raise self.failureException(msg)\nAssertionError: '/pages/home/user/index' != 'page/component/index'\n- /pages/home/user/index\n+ page/component/index\n\n",
+            "errors": "",
+            "start_timestamp": 1568975136.7974277,
+            "is_failure": true,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": 20,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_assert_failed.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "isShow": true,
+                "account": "",
+                "weSession_key": "2cb436a7d5dcf8297245107ea6d5daaa"
+            },
+            "source": {
+                "code": [
+                    "  def test_assert_failed(self):\n",
+                    "        \"\"\"\n",
+                    "        \u6d4b\u8bd5assert\u5f02\u5e38\n",
+                    "        \"\"\"\n",
+                    "        self.assertIsInstance(self.page.query, dict)\n",
+                    "        # \u8fd9\u91cc\u4f1a\u62a5\u9519\n",
+                    "        self.assertEqual(self.page.path, \"page/component/index\")\n"
+                ],
+                "start": 14
+            },
+            "stop_timestamp": 1568975140.415427,
+            "check_list": [],
+            "assert_list": [
+                {
+                    "name": null,
+                    "ret": true,
+                    "msg": null,
+                    "img": null
+                },
+                {
+                    "name": null,
+                    "ret": false,
+                    "msg": "'/pages/home/user/index' != 'page/component/index'\n- /pages/home/user/index\n+ page/component/index\n",
+                    "img": null
+                }
+            ],
+            "screen_info": [],
+            "filename": "test_assert_failed.json",
+            "relative": "test_assert_failed\\20190920182536"
+        },
+        {
+            "case_name": "test_error_failed",
+            "run_time": "20190920 18:25:40",
+            "test_type": "FirsTest",
+            "case_doc": "\u4f1a\u5f15\u8d77\u5f02\u5e38: AttributeError: 'NoneType' object has no attribute 'click'\n",
+            "success": false,
+            "failures": "",
+            "errors": "Traceback (most recent call last):\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n  File \"G:\\\u5fae\u4fe1\u5c0f\u7a0b\u5e8f\\minium-0.0.2\\minium-0.0.2\\first_test.py\", line 26, in test_error_failed\n    self.page.get_element(\"sunny\").click()\nAttributeError: 'NoneType' object has no attribute 'click'\n",
+            "start_timestamp": 1568975140.4194248,
+            "is_failure": false,
+            "is_error": true,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": 26,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_error_failed.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "isShow": true,
+                "account": "",
+                "weSession_key": "2cb436a7d5dcf8297245107ea6d5daaa"
+            },
+            "source": {
+                "code": [
+                    "  def test_error_failed(self):\n",
+                    "        \"\"\"\n",
+                    "        \u4f1a\u5f15\u8d77\u5f02\u5e38: AttributeError: 'NoneType' object has no attribute 'click'\n",
+                    "        \"\"\"\n",
+                    "        # self.mini.call_wx_method(\"getLaunchOptionsSync\")\n",
+                    "        self.page.get_element(\"sunny\").click()\n"
+                ],
+                "start": 21
+            },
+            "stop_timestamp": 1568975161.809429,
+            "check_list": [],
+            "assert_list": [],
+            "screen_info": [],
+            "filename": "test_error_failed.json",
+            "relative": "test_error_failed\\20190920182540"
+        },
+        {
+            "case_name": "test_get_system_info",
+            "run_time": "20190920 18:26:01",
+            "test_type": "FirsTest",
+            "case_doc": null,
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568975161.8144648,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_get_system_info.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "isShow": true,
+                "account": "",
+                "weSession_key": "2cb436a7d5dcf8297245107ea6d5daaa"
+            },
+            "source": {
+                "code": [
+                    "  def test_get_system_info(self):\n",
+                    "    sys_info = self.app.call_wx_method(\"getSystemInfo\")\n",
+                    "    self.assertIn(\"SDKVersion\", sys_info.result.result)\n"
+                ],
+                "start": 5
+            },
+            "stop_timestamp": 1568975163.853429,
+            "check_list": [],
+            "assert_list": [
+                {
+                    "name": null,
+                    "ret": true,
+                    "msg": null,
+                    "img": null
+                }
+            ],
+            "screen_info": [],
+            "filename": "test_get_system_info.json",
+            "relative": "test_get_system_info\\20190920182601"
+        },
+        {
+            "case_name": "test_modal",
+            "run_time": "20190920 18:26:03",
+            "test_type": "FirsTest",
+            "case_doc": "\u64cd\u4f5c\u539f\u751fmodal\u5b9e\u4f8b\n",
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568975163.858428,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_modal.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "isShow": true,
+                "account": "",
+                "weSession_key": "2cb436a7d5dcf8297245107ea6d5daaa"
+            },
+            "source": {
+                "code": [
+                    "  def test_modal(self):\n",
+                    "    \"\"\"\n",
+                    "    \u64cd\u4f5c\u539f\u751fmodal\u5b9e\u4f8b\n",
+                    "    \"\"\"\n",
+                    "    self.app.navigate_to(\"/pages/selfservice/orderSelf/historyOrder/historyOrder\")\n",
+                    "    self.page.get_element(\"button\").click()\n"
+                ],
+                "start": 8
+            },
+            "stop_timestamp": 1568975171.6314368,
+            "check_list": [],
+            "assert_list": [],
+            "screen_info": [],
+            "filename": "test_modal.json",
+            "relative": "test_modal\\20190920182603"
+        },
+        {
+            "case_name": "test_assert_failed",
+            "run_time": "20190920 18:26:30",
+            "test_type": "FirsTest",
+            "case_doc": "\u6d4b\u8bd5assert\u5f02\u5e38\n",
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568975190.7104285,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_assert_failed.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "isShow": true,
+                "account": "",
+                "weSession_key": "2cb436a7d5dcf8297245107ea6d5daaa"
+            },
+            "source": {
+                "code": [
+                    "  def test_assert_failed(self):\n",
+                    "        \"\"\"\n",
+                    "        \u6d4b\u8bd5assert\u5f02\u5e38\n",
+                    "        \"\"\"\n",
+                    "        self.assertIsInstance(self.page.query, dict)\n",
+                    "        # \u8fd9\u91cc\u4f1a\u62a5\u9519\n",
+                    "        self.assertEqual(self.page.path, \"/pages/home/user/index\")\n"
+                ],
+                "start": 14
+            },
+            "stop_timestamp": 1568975193.7884579,
+            "check_list": [],
+            "assert_list": [
+                {
+                    "name": null,
+                    "ret": true,
+                    "msg": null,
+                    "img": null
+                },
+                {
+                    "name": null,
+                    "ret": true,
+                    "msg": null,
+                    "img": null
+                }
+            ],
+            "screen_info": [],
+            "filename": "test_assert_failed.json",
+            "relative": "test_assert_failed\\20190920182630"
+        },
+        {
+            "case_name": "test_error_failed",
+            "run_time": "20190920 18:26:33",
+            "test_type": "FirsTest",
+            "case_doc": "\u4f1a\u5f15\u8d77\u5f02\u5e38: AttributeError: 'NoneType' object has no attribute 'click'\n",
+            "success": false,
+            "failures": "",
+            "errors": "Traceback (most recent call last):\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n  File \"G:\\\u5fae\u4fe1\u5c0f\u7a0b\u5e8f\\minium-0.0.2\\minium-0.0.2\\first_test.py\", line 26, in test_error_failed\n    self.page.get_element(\"sunny\").click()\nAttributeError: 'NoneType' object has no attribute 'click'\n",
+            "start_timestamp": 1568975193.7934244,
+            "is_failure": false,
+            "is_error": true,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": 26,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_error_failed.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "isShow": true,
+                "account": "",
+                "weSession_key": "2cb436a7d5dcf8297245107ea6d5daaa"
+            },
+            "source": {
+                "code": [
+                    "  def test_error_failed(self):\n",
+                    "        \"\"\"\n",
+                    "        \u4f1a\u5f15\u8d77\u5f02\u5e38: AttributeError: 'NoneType' object has no attribute 'click'\n",
+                    "        \"\"\"\n",
+                    "        # self.mini.call_wx_method(\"getLaunchOptionsSync\")\n",
+                    "        self.page.get_element(\"sunny\").click()\n"
+                ],
+                "start": 21
+            },
+            "stop_timestamp": 1568975214.9294276,
+            "check_list": [],
+            "assert_list": [],
+            "screen_info": [],
+            "filename": "test_error_failed.json",
+            "relative": "test_error_failed\\20190920182633"
+        },
+        {
+            "case_name": "test_get_system_info",
+            "run_time": "20190920 18:26:54",
+            "test_type": "FirsTest",
+            "case_doc": null,
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568975214.9334261,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_get_system_info.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "isShow": true,
+                "account": "",
+                "weSession_key": "2cb436a7d5dcf8297245107ea6d5daaa"
+            },
+            "source": {
+                "code": [
+                    "  def test_get_system_info(self):\n",
+                    "    sys_info = self.app.call_wx_method(\"getSystemInfo\")\n",
+                    "    self.assertIn(\"SDKVersion\", sys_info.result.result)\n"
+                ],
+                "start": 5
+            },
+            "stop_timestamp": 1568975217.1144297,
+            "check_list": [],
+            "assert_list": [
+                {
+                    "name": null,
+                    "ret": true,
+                    "msg": null,
+                    "img": null
+                }
+            ],
+            "screen_info": [],
+            "filename": "test_get_system_info.json",
+            "relative": "test_get_system_info\\20190920182654"
+        },
+        {
+            "case_name": "test_modal",
+            "run_time": "20190920 18:26:57",
+            "test_type": "FirsTest",
+            "case_doc": "\u64cd\u4f5c\u539f\u751fmodal\u5b9e\u4f8b\n",
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568975217.1184604,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_modal.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "isShow": true,
+                "account": "",
+                "weSession_key": "2cb436a7d5dcf8297245107ea6d5daaa"
+            },
+            "source": {
+                "code": [
+                    "  def test_modal(self):\n",
+                    "    \"\"\"\n",
+                    "    \u64cd\u4f5c\u539f\u751fmodal\u5b9e\u4f8b\n",
+                    "    \"\"\"\n",
+                    "    self.app.navigate_to(\"/pages/selfservice/orderSelf/historyOrder/historyOrder\")\n",
+                    "    self.page.get_element(\"button\").click()\n"
+                ],
+                "start": 8
+            },
+            "stop_timestamp": 1568975224.438427,
+            "check_list": [],
+            "assert_list": [],
+            "screen_info": [],
+            "filename": "test_modal.json",
+            "relative": "test_modal\\20190920182657"
+        },
+        {
+            "case_name": "test_assert_failed",
+            "run_time": "20190920 18:27:37",
+            "test_type": "FirsTest",
+            "case_doc": "\u6d4b\u8bd5assert\u5f02\u5e38\n",
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568975257.7384284,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_assert_failed.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "isShow": true,
+                "account": "",
+                "weSession_key": "2cb436a7d5dcf8297245107ea6d5daaa"
+            },
+            "source": {
+                "code": [
+                    "  def test_assert_failed(self):\n",
+                    "        \"\"\"\n",
+                    "        \u6d4b\u8bd5assert\u5f02\u5e38\n",
+                    "        \"\"\"\n",
+                    "        self.assertIsInstance(self.page.query, dict)\n",
+                    "        # \u8fd9\u91cc\u4f1a\u62a5\u9519\n",
+                    "        self.assertEqual(self.page.path, \"/pages/home/user/index\")\n"
+                ],
+                "start": 14
+            },
+            "stop_timestamp": 1568975261.6204243,
+            "check_list": [],
+            "assert_list": [
+                {
+                    "name": null,
+                    "ret": true,
+                    "msg": null,
+                    "img": null
+                },
+                {
+                    "name": null,
+                    "ret": true,
+                    "msg": null,
+                    "img": null
+                }
+            ],
+            "screen_info": [],
+            "filename": "test_assert_failed.json",
+            "relative": "test_assert_failed\\20190920182737"
+        },
+        {
+            "case_name": "test_error_failed",
+            "run_time": "20190920 18:27:41",
+            "test_type": "FirsTest",
+            "case_doc": "\u4f1a\u5f15\u8d77\u5f02\u5e38: AttributeError: 'NoneType' object has no attribute 'click'\n",
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568975261.6254287,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_error_failed.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "isShow": true,
+                "account": "",
+                "weSession_key": "2cb436a7d5dcf8297245107ea6d5daaa"
+            },
+            "source": {
+                "code": [
+                    "  def test_error_failed(self):\n",
+                    "        \"\"\"\n",
+                    "        \u4f1a\u5f15\u8d77\u5f02\u5e38: AttributeError: 'NoneType' object has no attribute 'click'\n",
+                    "        \"\"\"\n",
+                    "        self.mini.call_wx_method(\"getLaunchOptionsSync\")\n"
+                ],
+                "start": 21
+            },
+            "stop_timestamp": 1568975262.657429,
+            "check_list": [],
+            "assert_list": [],
+            "screen_info": [],
+            "filename": "test_error_failed.json",
+            "relative": "test_error_failed\\20190920182741"
+        },
+        {
+            "case_name": "test_get_system_info",
+            "run_time": "20190920 18:27:42",
+            "test_type": "FirsTest",
+            "case_doc": null,
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568975262.9794252,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_get_system_info.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "isShow": true,
+                "account": "",
+                "weSession_key": "2cb436a7d5dcf8297245107ea6d5daaa"
+            },
+            "source": {
+                "code": [
+                    "  def test_get_system_info(self):\n",
+                    "    sys_info = self.app.call_wx_method(\"getSystemInfo\")\n",
+                    "    self.assertIn(\"SDKVersion\", sys_info.result.result)\n"
+                ],
+                "start": 5
+            },
+            "stop_timestamp": 1568975265.0054283,
+            "check_list": [],
+            "assert_list": [
+                {
+                    "name": null,
+                    "ret": true,
+                    "msg": null,
+                    "img": null
+                }
+            ],
+            "screen_info": [],
+            "filename": "test_get_system_info.json",
+            "relative": "test_get_system_info\\20190920182742"
+        },
+        {
+            "case_name": "test_modal",
+            "run_time": "20190920 18:27:45",
+            "test_type": "FirsTest",
+            "case_doc": "\u64cd\u4f5c\u539f\u751fmodal\u5b9e\u4f8b\n",
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568975265.009428,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_modal.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "isShow": true,
+                "account": "",
+                "weSession_key": "2cb436a7d5dcf8297245107ea6d5daaa"
+            },
+            "source": {
+                "code": [
+                    "  def test_modal(self):\n",
+                    "    \"\"\"\n",
+                    "    \u64cd\u4f5c\u539f\u751fmodal\u5b9e\u4f8b\n",
+                    "    \"\"\"\n",
+                    "    self.app.navigate_to(\"/pages/selfservice/orderSelf/historyOrder/historyOrder\")\n",
+                    "    self.page.get_element(\"button\").click()\n"
+                ],
+                "start": 8
+            },
+            "stop_timestamp": 1568975272.4184284,
+            "check_list": [],
+            "assert_list": [],
+            "screen_info": [],
+            "filename": "test_modal.json",
+            "relative": "test_modal\\20190920182745"
+        },
+        {
+            "case_name": "test_assert_failed",
+            "run_time": "20190920 18:31:41",
+            "test_type": "FirsTest",
+            "case_doc": "\u6d4b\u8bd5assert\u5f02\u5e38\n",
+            "success": false,
+            "failures": "Traceback (most recent call last):\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n  File \"G:\\\u5fae\u4fe1\u5c0f\u7a0b\u5e8f\\minium-0.0.2\\minium-0.0.2\\first_test.py\", line 20, in test_assert_failed\n    self.assertEqual(self.page.path, \"/pages/home/user/index\")\n  File \"D:\\Program Files\\Python37\\lib\\site-packages\\minium-0.0.2-py3.7.egg\\minium\\framework\\assertbase.py\", line 170, in _hook_assert\n    attr(*args,**kwargs)\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 839, in assertEqual\n    assertion_func(first, second, msg=msg)\n  File \"D:\\Program Files\\Python37\\lib\\site-packages\\minium-0.0.2-py3.7.egg\\minium\\framework\\assertbase.py\", line 170, in _hook_assert\n    attr(*args,**kwargs)\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 1220, in assertMultiLineEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 680, in fail\n    raise self.failureException(msg)\nAssertionError: '/pages/home/selfservice/index' != '/pages/home/user/index'\n- /pages/home/selfservice/index\n?             ^^^^   ----\n+ /pages/home/user/index\n?             ^\n\n",
+            "errors": "",
+            "start_timestamp": 1568975501.8889463,
+            "is_failure": true,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": 20,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_assert_failed.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "nologo": "../../../static/mo_logo.png",
+                "icon_class": "",
+                "pic": "http://r.handnear.com/wx_miniProgram/image/mentouzhao.png",
+                "title": "\u9b54\u672f\u5e08",
+                "address": "",
+                "Lng": "",
+                "Lat": "",
+                "distance": 0,
+                "IsHere": false,
+                "IsInShop": false,
+                "timer": null,
+                "navIndex": 0,
+                "nav": [
+                    "\u6280\u5e08",
+                    "\u9879\u76ee"
+                ],
+                "serviceIndex": -1,
+                "projectIndex": -1,
+                "childrenShow": false,
+                "ServiceTypeTechsID": "",
+                "ServiceTypeServicesID": "",
+                "techList": [],
+                "project": [],
+                "pageTechs": 0,
+                "pageServices": 0,
+                "reachTechs": false,
+                "reachServices": false,
+                "isMsg": "\u7531\u4e8e\u65e0\u6cd5\u5b9a\u4f4d\u5230\u60a8\u5728\u5e97\u94fa\u8303\u56f4\u5185\n\u62b1\u6b49\u4ee5\u4e0b\u81ea\u52a9\u529f\u80fd\u65e0\u6cd5\u7ed9\u4f60\u63d0\u4f9b\u4f7f\u7528",
+                "isShow": true
+            },
+            "source": {
+                "code": [
+                    "  def test_assert_failed(self):\n",
+                    "    \"\"\"\n",
+                    "    \u6d4b\u8bd5assert\u5f02\u5e38\n",
+                    "    \"\"\"\n",
+                    "    self.assertIsInstance(self.page.query, dict)\n",
+                    "    # \u8fd9\u91cc\u4f1a\u62a5\u9519\n",
+                    "    self.assertEqual(self.page.path, \"/pages/home/user/index\")\n"
+                ],
+                "start": 14
+            },
+            "stop_timestamp": 1568975504.9759457,
+            "check_list": [],
+            "assert_list": [
+                {
+                    "name": null,
+                    "ret": true,
+                    "msg": null,
+                    "img": null
+                },
+                {
+                    "name": null,
+                    "ret": false,
+                    "msg": "'/pages/home/selfservice/index' != '/pages/home/user/index'\n- /pages/home/selfservice/index\n?             ^^^^   ----\n+ /pages/home/user/index\n?             ^\n",
+                    "img": null
+                }
+            ],
+            "screen_info": [],
+            "filename": "test_assert_failed.json",
+            "relative": "test_assert_failed\\20190920183141"
+        },
+        {
+            "case_name": "test_error_failed",
+            "run_time": "20190920 18:31:44",
+            "test_type": "FirsTest",
+            "case_doc": "\u4f1a\u5f15\u8d77\u5f02\u5e38: AttributeError: 'NoneType' object has no attribute 'click'\n",
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568975504.9799428,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_error_failed.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "nologo": "../../../static/mo_logo.png",
+                "icon_class": "",
+                "pic": "http://r.handnear.com/wx_miniProgram/image/mentouzhao.png",
+                "title": "\u9b54\u672f\u5e08",
+                "address": "",
+                "Lng": "",
+                "Lat": "",
+                "distance": 0,
+                "IsHere": false,
+                "IsInShop": false,
+                "timer": null,
+                "navIndex": 0,
+                "nav": [
+                    "\u6280\u5e08",
+                    "\u9879\u76ee"
+                ],
+                "serviceIndex": -1,
+                "projectIndex": -1,
+                "childrenShow": false,
+                "ServiceTypeTechsID": "",
+                "ServiceTypeServicesID": "",
+                "techList": [],
+                "project": [],
+                "pageTechs": 0,
+                "pageServices": 0,
+                "reachTechs": false,
+                "reachServices": false,
+                "isMsg": "\u7531\u4e8e\u65e0\u6cd5\u5b9a\u4f4d\u5230\u60a8\u5728\u5e97\u94fa\u8303\u56f4\u5185\n\u62b1\u6b49\u4ee5\u4e0b\u81ea\u52a9\u529f\u80fd\u65e0\u6cd5\u7ed9\u4f60\u63d0\u4f9b\u4f7f\u7528",
+                "isShow": true
+            },
+            "source": {
+                "code": [
+                    "  def test_error_failed(self):\n",
+                    "    \"\"\"\n",
+                    "    \u4f1a\u5f15\u8d77\u5f02\u5e38: AttributeError: 'NoneType' object has no attribute 'click'\n",
+                    "    \"\"\"\n",
+                    "    self.mini.call_wx_method(\"getLaunchOptionsSync\")\n"
+                ],
+                "start": 21
+            },
+            "stop_timestamp": 1568975505.9949446,
+            "check_list": [],
+            "assert_list": [],
+            "screen_info": [],
+            "filename": "test_error_failed.json",
+            "relative": "test_error_failed\\20190920183144"
+        },
+        {
+            "case_name": "test_get_system_info",
+            "run_time": "20190920 18:31:46",
+            "test_type": "FirsTest",
+            "case_doc": null,
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568975506.046944,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_get_system_info.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "nologo": "../../../static/mo_logo.png",
+                "icon_class": "",
+                "pic": "http://r.handnear.com/wx_miniProgram/image/mentouzhao.png",
+                "title": "\u9b54\u672f\u5e08",
+                "address": "",
+                "Lng": "",
+                "Lat": "",
+                "distance": 0,
+                "IsHere": false,
+                "IsInShop": false,
+                "timer": null,
+                "navIndex": 0,
+                "nav": [
+                    "\u6280\u5e08",
+                    "\u9879\u76ee"
+                ],
+                "serviceIndex": -1,
+                "projectIndex": -1,
+                "childrenShow": false,
+                "ServiceTypeTechsID": "",
+                "ServiceTypeServicesID": "",
+                "techList": [],
+                "project": [],
+                "pageTechs": 0,
+                "pageServices": 0,
+                "reachTechs": false,
+                "reachServices": false,
+                "isMsg": "\u7531\u4e8e\u65e0\u6cd5\u5b9a\u4f4d\u5230\u60a8\u5728\u5e97\u94fa\u8303\u56f4\u5185\n\u62b1\u6b49\u4ee5\u4e0b\u81ea\u52a9\u529f\u80fd\u65e0\u6cd5\u7ed9\u4f60\u63d0\u4f9b\u4f7f\u7528",
+                "isShow": true
+            },
+            "source": {
+                "code": [
+                    "  def test_get_system_info(self):\n",
+                    "    sys_info = self.app.call_wx_method(\"getSystemInfo\")\n",
+                    "    self.assertIn(\"SDKVersion\", sys_info.result.result)\n"
+                ],
+                "start": 5
+            },
+            "stop_timestamp": 1568975508.2519433,
+            "check_list": [],
+            "assert_list": [
+                {
+                    "name": null,
+                    "ret": true,
+                    "msg": null,
+                    "img": null
+                }
+            ],
+            "screen_info": [],
+            "filename": "test_get_system_info.json",
+            "relative": "test_get_system_info\\20190920183146"
+        },
+        {
+            "case_name": "test_modal",
+            "run_time": "20190920 18:31:48",
+            "test_type": "FirsTest",
+            "case_doc": "\u64cd\u4f5c\u539f\u751fmodal\u5b9e\u4f8b\n",
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568975508.2559438,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_modal.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "nologo": "../../../static/mo_logo.png",
+                "icon_class": "",
+                "pic": "http://r.handnear.com/wx_miniProgram/image/mentouzhao.png",
+                "title": "\u9b54\u672f\u5e08",
+                "address": "",
+                "Lng": "",
+                "Lat": "",
+                "distance": 0,
+                "IsHere": false,
+                "IsInShop": false,
+                "timer": null,
+                "navIndex": 0,
+                "nav": [
+                    "\u6280\u5e08",
+                    "\u9879\u76ee"
+                ],
+                "serviceIndex": -1,
+                "projectIndex": -1,
+                "childrenShow": false,
+                "ServiceTypeTechsID": "",
+                "ServiceTypeServicesID": "",
+                "techList": [],
+                "project": [],
+                "pageTechs": 0,
+                "pageServices": 0,
+                "reachTechs": false,
+                "reachServices": false,
+                "isMsg": "\u7531\u4e8e\u65e0\u6cd5\u5b9a\u4f4d\u5230\u60a8\u5728\u5e97\u94fa\u8303\u56f4\u5185\n\u62b1\u6b49\u4ee5\u4e0b\u81ea\u52a9\u529f\u80fd\u65e0\u6cd5\u7ed9\u4f60\u63d0\u4f9b\u4f7f\u7528",
+                "isShow": true
+            },
+            "source": {
+                "code": [
+                    "  def test_modal(self):\n",
+                    "    \"\"\"\n",
+                    "    \u64cd\u4f5c\u539f\u751fmodal\u5b9e\u4f8b\n",
+                    "    \"\"\"\n",
+                    "    self.app.navigate_to(\"/pages/selfservice/orderSelf/historyOrder/historyOrder\")\n",
+                    "    self.page.get_element(\"button\").click()\n"
+                ],
+                "start": 8
+            },
+            "stop_timestamp": 1568975515.8359447,
+            "check_list": [],
+            "assert_list": [],
+            "screen_info": [],
+            "filename": "test_modal.json",
+            "relative": "test_modal\\20190920183148"
+        },
+        {
+            "case_name": "test_assert_failed",
+            "run_time": "20190920 18:32:28",
+            "test_type": "FirsTest",
+            "case_doc": "\u6d4b\u8bd5assert\u5f02\u5e38\n",
+            "success": false,
+            "failures": "Traceback (most recent call last):\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n  File \"G:\\\u5fae\u4fe1\u5c0f\u7a0b\u5e8f\\minium-0.0.2\\minium-0.0.2\\first_test.py\", line 20, in test_assert_failed\n    self.assertEqual(self.page.path, \"/pages/home/user/index\")\n  File \"D:\\Program Files\\Python37\\lib\\site-packages\\minium-0.0.2-py3.7.egg\\minium\\framework\\assertbase.py\", line 170, in _hook_assert\n    attr(*args,**kwargs)\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 839, in assertEqual\n    assertion_func(first, second, msg=msg)\n  File \"D:\\Program Files\\Python37\\lib\\site-packages\\minium-0.0.2-py3.7.egg\\minium\\framework\\assertbase.py\", line 170, in _hook_assert\n    attr(*args,**kwargs)\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 1220, in assertMultiLineEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 680, in fail\n    raise self.failureException(msg)\nAssertionError: '/pages/home/selfservice/index' != '/pages/home/user/index'\n- /pages/home/selfservice/index\n?             ^^^^   ----\n+ /pages/home/user/index\n?             ^\n\n",
+            "errors": "",
+            "start_timestamp": 1568975548.2029457,
+            "is_failure": true,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": 20,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_assert_failed.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "nologo": "../../../static/mo_logo.png",
+                "icon_class": "",
+                "pic": "http://r.handnear.com/wx_miniProgram/image/mentouzhao.png",
+                "title": "\u9b54\u672f\u5e08",
+                "address": "",
+                "Lng": "",
+                "Lat": "",
+                "distance": 0,
+                "IsHere": false,
+                "IsInShop": false,
+                "timer": null,
+                "navIndex": 0,
+                "nav": [
+                    "\u6280\u5e08",
+                    "\u9879\u76ee"
+                ],
+                "serviceIndex": -1,
+                "projectIndex": -1,
+                "childrenShow": false,
+                "ServiceTypeTechsID": "",
+                "ServiceTypeServicesID": "",
+                "techList": [],
+                "project": [],
+                "pageTechs": 0,
+                "pageServices": 0,
+                "reachTechs": false,
+                "reachServices": false,
+                "isMsg": "\u7531\u4e8e\u65e0\u6cd5\u5b9a\u4f4d\u5230\u60a8\u5728\u5e97\u94fa\u8303\u56f4\u5185\n\u62b1\u6b49\u4ee5\u4e0b\u81ea\u52a9\u529f\u80fd\u65e0\u6cd5\u7ed9\u4f60\u63d0\u4f9b\u4f7f\u7528",
+                "isShow": true
+            },
+            "source": {
+                "code": [
+                    "  def test_assert_failed(self):\n",
+                    "    \"\"\"\n",
+                    "    \u6d4b\u8bd5assert\u5f02\u5e38\n",
+                    "    \"\"\"\n",
+                    "    self.assertIsInstance(self.page.query, dict)\n",
+                    "    # \u8fd9\u91cc\u4f1a\u62a5\u9519\n",
+                    "    self.assertEqual(self.page.path, \"/pages/home/user/index\")\n"
+                ],
+                "start": 14
+            },
+            "stop_timestamp": 1568975551.2959697,
+            "check_list": [],
+            "assert_list": [
+                {
+                    "name": null,
+                    "ret": true,
+                    "msg": null,
+                    "img": null
+                },
+                {
+                    "name": null,
+                    "ret": false,
+                    "msg": "'/pages/home/selfservice/index' != '/pages/home/user/index'\n- /pages/home/selfservice/index\n?             ^^^^   ----\n+ /pages/home/user/index\n?             ^\n",
+                    "img": null
+                }
+            ],
+            "screen_info": [],
+            "filename": "test_assert_failed.json",
+            "relative": "test_assert_failed\\20190920183228"
+        },
+        {
+            "case_name": "test_error_failed",
+            "run_time": "20190920 18:32:31",
+            "test_type": "FirsTest",
+            "case_doc": "\u4f1a\u5f15\u8d77\u5f02\u5e38: AttributeError: 'NoneType' object has no attribute 'click'\n",
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568975551.300945,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_error_failed.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "nologo": "../../../static/mo_logo.png",
+                "icon_class": "",
+                "pic": "http://r.handnear.com/wx_miniProgram/image/mentouzhao.png",
+                "title": "\u9b54\u672f\u5e08",
+                "address": "",
+                "Lng": "",
+                "Lat": "",
+                "distance": 0,
+                "IsHere": false,
+                "IsInShop": false,
+                "timer": null,
+                "navIndex": 0,
+                "nav": [
+                    "\u6280\u5e08",
+                    "\u9879\u76ee"
+                ],
+                "serviceIndex": -1,
+                "projectIndex": -1,
+                "childrenShow": false,
+                "ServiceTypeTechsID": "",
+                "ServiceTypeServicesID": "",
+                "techList": [],
+                "project": [],
+                "pageTechs": 0,
+                "pageServices": 0,
+                "reachTechs": false,
+                "reachServices": false,
+                "isMsg": "\u7531\u4e8e\u65e0\u6cd5\u5b9a\u4f4d\u5230\u60a8\u5728\u5e97\u94fa\u8303\u56f4\u5185\n\u62b1\u6b49\u4ee5\u4e0b\u81ea\u52a9\u529f\u80fd\u65e0\u6cd5\u7ed9\u4f60\u63d0\u4f9b\u4f7f\u7528",
+                "isShow": true
+            },
+            "source": {
+                "code": [
+                    "  def test_error_failed(self):\n",
+                    "    \"\"\"\n",
+                    "    \u4f1a\u5f15\u8d77\u5f02\u5e38: AttributeError: 'NoneType' object has no attribute 'click'\n",
+                    "    \"\"\"\n",
+                    "    self.mini.call_wx_method(\"getLaunchOptionsSync\")\n"
+                ],
+                "start": 21
+            },
+            "stop_timestamp": 1568975552.6179461,
+            "check_list": [],
+            "assert_list": [],
+            "screen_info": [],
+            "filename": "test_error_failed.json",
+            "relative": "test_error_failed\\20190920183231"
+        },
+        {
+            "case_name": "test_get_system_info",
+            "run_time": "20190920 18:32:32",
+            "test_type": "FirsTest",
+            "case_doc": null,
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568975552.6369684,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_get_system_info.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "nologo": "../../../static/mo_logo.png",
+                "icon_class": "",
+                "pic": "http://r.handnear.com/wx_miniProgram/image/mentouzhao.png",
+                "title": "\u9b54\u672f\u5e08",
+                "address": "",
+                "Lng": "",
+                "Lat": "",
+                "distance": 0,
+                "IsHere": false,
+                "IsInShop": false,
+                "timer": null,
+                "navIndex": 0,
+                "nav": [
+                    "\u6280\u5e08",
+                    "\u9879\u76ee"
+                ],
+                "serviceIndex": -1,
+                "projectIndex": -1,
+                "childrenShow": false,
+                "ServiceTypeTechsID": "",
+                "ServiceTypeServicesID": "",
+                "techList": [],
+                "project": [],
+                "pageTechs": 0,
+                "pageServices": 0,
+                "reachTechs": false,
+                "reachServices": false,
+                "isMsg": "\u7531\u4e8e\u65e0\u6cd5\u5b9a\u4f4d\u5230\u60a8\u5728\u5e97\u94fa\u8303\u56f4\u5185\n\u62b1\u6b49\u4ee5\u4e0b\u81ea\u52a9\u529f\u80fd\u65e0\u6cd5\u7ed9\u4f60\u63d0\u4f9b\u4f7f\u7528",
+                "isShow": true
+            },
+            "source": {
+                "code": [
+                    "  def test_get_system_info(self):\n",
+                    "    sys_info = self.app.call_wx_method(\"getSystemInfo\")\n",
+                    "    self.assertIn(\"SDKVersion\", sys_info.result.result)\n"
+                ],
+                "start": 5
+            },
+            "stop_timestamp": 1568975554.6659555,
+            "check_list": [],
+            "assert_list": [
+                {
+                    "name": null,
+                    "ret": true,
+                    "msg": null,
+                    "img": null
+                }
+            ],
+            "screen_info": [],
+            "filename": "test_get_system_info.json",
+            "relative": "test_get_system_info\\20190920183232"
+        },
+        {
+            "case_name": "test_modal",
+            "run_time": "20190920 18:32:34",
+            "test_type": "FirsTest",
+            "case_doc": "\u64cd\u4f5c\u539f\u751fmodal\u5b9e\u4f8b\n",
+            "success": true,
+            "failures": "",
+            "errors": "",
+            "start_timestamp": 1568975554.6709762,
+            "is_failure": false,
+            "is_error": false,
+            "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+            "failed_line_num": -1,
+            "device": {
+                "system_info": {
+                    "model": "iPhone X",
+                    "pixelRatio": 3,
+                    "windowWidth": 375,
+                    "windowHeight": 730,
+                    "system": "iOS 10.0.1",
+                    "language": "zh",
+                    "version": "7.0.4",
+                    "screenWidth": 375,
+                    "screenHeight": 812,
+                    "SDKVersion": "2.8.3",
+                    "brand": "devtools",
+                    "fontSizeSetting": 16,
+                    "batteryLevel": 100,
+                    "statusBarHeight": 44,
+                    "safeArea": {
+                        "right": 375,
+                        "bottom": 812,
+                        "left": 0,
+                        "top": 44,
+                        "width": 375,
+                        "height": 768
+                    },
+                    "platform": "devtools"
+                }
+            },
+            "log_filename": "test_modal.log",
+            "weapp_log_path": "weapp.log",
+            "page_data": {
+                "nologo": "../../../static/mo_logo.png",
+                "icon_class": "",
+                "pic": "http://r.handnear.com/wx_miniProgram/image/mentouzhao.png",
+                "title": "\u9b54\u672f\u5e08",
+                "address": "",
+                "Lng": "",
+                "Lat": "",
+                "distance": 0,
+                "IsHere": false,
+                "IsInShop": false,
+                "timer": null,
+                "navIndex": 0,
+                "nav": [
+                    "\u6280\u5e08",
+                    "\u9879\u76ee"
+                ],
+                "serviceIndex": -1,
+                "projectIndex": -1,
+                "childrenShow": false,
+                "ServiceTypeTechsID": "",
+                "ServiceTypeServicesID": "",
+                "techList": [],
+                "project": [],
+                "pageTechs": 0,
+                "pageServices": 0,
+                "reachTechs": false,
+                "reachServices": false,
+                "isMsg": "\u7531\u4e8e\u65e0\u6cd5\u5b9a\u4f4d\u5230\u60a8\u5728\u5e97\u94fa\u8303\u56f4\u5185\n\u62b1\u6b49\u4ee5\u4e0b\u81ea\u52a9\u529f\u80fd\u65e0\u6cd5\u7ed9\u4f60\u63d0\u4f9b\u4f7f\u7528",
+                "isShow": true
+            },
+            "source": {
+                "code": [
+                    "  def test_modal(self):\n",
+                    "    \"\"\"\n",
+                    "    \u64cd\u4f5c\u539f\u751fmodal\u5b9e\u4f8b\n",
+                    "    \"\"\"\n",
+                    "    self.app.navigate_to(\"/pages/selfservice/orderSelf/historyOrder/historyOrder\")\n",
+                    "    self.page.get_element(\"button\").click()\n"
+                ],
+                "start": 8
+            },
+            "stop_timestamp": 1568975561.9719462,
+            "check_list": [],
+            "assert_list": [],
+            "screen_info": [],
+            "filename": "test_modal.json",
+            "relative": "test_modal\\20190920183234"
+        }
+    ],
+    "summary": {
+        "case_num": 31,
+        "success": 25,
+        "failed": 3,
+        "error": 3,
+        "costs": ""
+    }
+}

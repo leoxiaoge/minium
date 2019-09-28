@@ -1,0 +1,89 @@
+{
+    "case_name": "test_error_failed",
+    "run_time": "20190920 18:31:44",
+    "test_type": "FirsTest",
+    "case_doc": "\u4f1a\u5f15\u8d77\u5f02\u5e38: AttributeError: 'NoneType' object has no attribute 'click'\n",
+    "success": true,
+    "failures": "",
+    "errors": "",
+    "start_timestamp": 1568975504.9799428,
+    "is_failure": false,
+    "is_error": false,
+    "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+    "failed_line_num": -1,
+    "device": {
+        "system_info": {
+            "model": "iPhone X",
+            "pixelRatio": 3,
+            "windowWidth": 375,
+            "windowHeight": 730,
+            "system": "iOS 10.0.1",
+            "language": "zh",
+            "version": "7.0.4",
+            "screenWidth": 375,
+            "screenHeight": 812,
+            "SDKVersion": "2.8.3",
+            "brand": "devtools",
+            "fontSizeSetting": 16,
+            "batteryLevel": 100,
+            "statusBarHeight": 44,
+            "safeArea": {
+                "right": 375,
+                "bottom": 812,
+                "left": 0,
+                "top": 44,
+                "width": 375,
+                "height": 768
+            },
+            "platform": "devtools"
+        }
+    },
+    "log_filename": "test_error_failed.log",
+    "weapp_log_path": "weapp.log",
+    "page_data": {
+        "nologo": "../../../static/mo_logo.png",
+        "icon_class": "",
+        "pic": "http://r.handnear.com/wx_miniProgram/image/mentouzhao.png",
+        "title": "\u9b54\u672f\u5e08",
+        "address": "",
+        "Lng": "",
+        "Lat": "",
+        "distance": 0,
+        "IsHere": false,
+        "IsInShop": false,
+        "timer": null,
+        "navIndex": 0,
+        "nav": [
+            "\u6280\u5e08",
+            "\u9879\u76ee"
+        ],
+        "serviceIndex": -1,
+        "projectIndex": -1,
+        "childrenShow": false,
+        "ServiceTypeTechsID": "",
+        "ServiceTypeServicesID": "",
+        "techList": [],
+        "project": [],
+        "pageTechs": 0,
+        "pageServices": 0,
+        "reachTechs": false,
+        "reachServices": false,
+        "isMsg": "\u7531\u4e8e\u65e0\u6cd5\u5b9a\u4f4d\u5230\u60a8\u5728\u5e97\u94fa\u8303\u56f4\u5185\n\u62b1\u6b49\u4ee5\u4e0b\u81ea\u52a9\u529f\u80fd\u65e0\u6cd5\u7ed9\u4f60\u63d0\u4f9b\u4f7f\u7528",
+        "isShow": true
+    },
+    "source": {
+        "code": [
+            "  def test_error_failed(self):\n",
+            "    \"\"\"\n",
+            "    \u4f1a\u5f15\u8d77\u5f02\u5e38: AttributeError: 'NoneType' object has no attribute 'click'\n",
+            "    \"\"\"\n",
+            "    self.mini.call_wx_method(\"getLaunchOptionsSync\")\n"
+        ],
+        "start": 21
+    },
+    "stop_timestamp": 1568975505.9949446,
+    "check_list": [],
+    "assert_list": [],
+    "screen_info": [],
+    "filename": "test_error_failed.json"
+}

@@ -1,0 +1,68 @@
+{
+    "case_name": "test_get_system_info",
+    "run_time": "20190920 18:27:42",
+    "test_type": "FirsTest",
+    "case_doc": null,
+    "success": true,
+    "failures": "",
+    "errors": "",
+    "start_timestamp": 1568975262.9794252,
+    "is_failure": false,
+    "is_error": false,
+    "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+    "failed_line_num": -1,
+    "device": {
+        "system_info": {
+            "model": "iPhone X",
+            "pixelRatio": 3,
+            "windowWidth": 375,
+            "windowHeight": 730,
+            "system": "iOS 10.0.1",
+            "language": "zh",
+            "version": "7.0.4",
+            "screenWidth": 375,
+            "screenHeight": 812,
+            "SDKVersion": "2.8.3",
+            "brand": "devtools",
+            "fontSizeSetting": 16,
+            "batteryLevel": 100,
+            "statusBarHeight": 44,
+            "safeArea": {
+                "right": 375,
+                "bottom": 812,
+                "left": 0,
+                "top": 44,
+                "width": 375,
+                "height": 768
+            },
+            "platform": "devtools"
+        }
+    },
+    "log_filename": "test_get_system_info.log",
+    "weapp_log_path": "weapp.log",
+    "page_data": {
+        "isShow": true,
+        "account": "",
+        "weSession_key": "2cb436a7d5dcf8297245107ea6d5daaa"
+    },
+    "source": {
+        "code": [
+            "  def test_get_system_info(self):\n",
+            "    sys_info = self.app.call_wx_method(\"getSystemInfo\")\n",
+            "    self.assertIn(\"SDKVersion\", sys_info.result.result)\n"
+        ],
+        "start": 5
+    },
+    "stop_timestamp": 1568975265.0054283,
+    "check_list": [],
+    "assert_list": [
+        {
+            "name": null,
+            "ret": true,
+            "msg": null,
+            "img": null
+        }
+    ],
+    "screen_info": [],
+    "filename": "test_get_system_info.json"
+}

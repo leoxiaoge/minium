@@ -1,0 +1,160 @@
+{
+    "case_name": "test_mock_location",
+    "run_time": "20190627 21:57:10",
+    "test_type": "MockTest",
+    "case_doc": null,
+    "success": true,
+    "failures": "",
+    "errors": "",
+    "start_timestamp": 1561643830.9132512,
+    "is_failure": false,
+    "is_error": false,
+    "module": "mocktest",
+    "failed_line_num": -1,
+    "device": {
+        "system_info": {
+            "language": "zh_CN",
+            "wifiEnabled": true,
+            "safeArea": {
+                "bottom": 667,
+                "height": 667,
+                "top": 0,
+                "width": 375,
+                "left": 0,
+                "right": 375
+            },
+            "bluetoothEnabled": false,
+            "deviceOrientation": "portrait",
+            "locationAuthorized": true,
+            "screenHeight": 667,
+            "notificationSoundAuthorized": true,
+            "windowHeight": 555,
+            "version": "7.0.4",
+            "system": "iOS 12.3.1",
+            "fontSizeSetting": 17,
+            "notificationAuthorized": true,
+            "statusBarHeight": 20,
+            "windowWidth": 375,
+            "pixelRatio": 2,
+            "notificationBadgeAuthorized": true,
+            "model": "iPhone 6<iPhone7,2>",
+            "screenWidth": 375,
+            "batteryLevel": 100,
+            "locationEnabled": true,
+            "microphoneAuthorized": false,
+            "albumAuthorized": false,
+            "cameraAuthorized": true,
+            "notificationAlertAuthorized": true,
+            "brand": "iPhone",
+            "platform": "ios",
+            "SDKVersion": "2.7.2"
+        }
+    },
+    "log_filename": "test_mock_location.log",
+    "weapp_log_path": "weapp.log",
+    "page_data": {
+        "hasLocation": true,
+        "location": {
+            "longitude": [
+                "113",
+                "32"
+            ],
+            "latitude": [
+                "23",
+                "10"
+            ]
+        }
+    },
+    "source": {
+        "code": [
+            "    def test_mock_location(self):\n",
+            "        self.app.navigate_to(\"/page/API/pages/get-location/get-location\")\n",
+            "\n",
+            "        # \u6a21\u62df\u6b66\u6c49\u5149\u8c37\u4f4d\u7f6e\n",
+            "        mock_location = {\"latitude\":30.5078502719,\"longitude\":114.4191741943,\"speed\":-1,\"accuracy\":65,\"verticalAccuracy\":65,\"horizontalAccuracy\":65,\"errMsg\":\"getLocation:ok\"}\n",
+            "        self.app.mock_wx_method(\"getLocation\", mock_location)\n",
+            "\n",
+            "        # \u68c0\u67e5mock\u6570\u636e\n",
+            "        self.page.get_element(\"button\", inner_text=\"\u83b7\u53d6\u4f4d\u7f6e\").click()\n",
+            "        self.native.allow_get_location()\n",
+            "        locations = self.page.get_element(\".page-body-text-location\").get_elements(\"text\")\n",
+            "        self.assertEqual(locations[0].inner_text, \"E: 114\u00b042\u2032\", \"\u7ecf\u5ea6\u6821\u9a8c\")\n",
+            "        self.assertEqual(locations[1].inner_text, \"N: 30\u00b051\u2032\", \"\u7eac\u5ea6\u6821\u9a8c\")\n",
+            "\n",
+            "        # \u53bb\u6389mock\n",
+            "        self.app.restore_wx_method(\"getLocation\")\n",
+            "        self.page.get_element(\"button\", inner_text=\"\u83b7\u53d6\u4f4d\u7f6e\").click()\n",
+            "        self.native.allow_get_location()\n",
+            "        locations = self.page.get_element(\".page-body-text-location\").get_elements(\"text\")\n",
+            "        self.assertNotEqual(locations[0].inner_text, \"E: 114\u00b042\u2032\", \"\u7ecf\u5ea6\u6821\u9a8c\")\n",
+            "        self.assertNotEqual(locations[1].inner_text, \"N: 30\u00b051\u2032\", \"\u7eac\u5ea6\u6821\u9a8c\")\n"
+        ],
+        "start": 7
+    },
+    "stop_timestamp": 1561643844.637325,
+    "check_list": [],
+    "assert_list": [
+        {
+            "name": "\u7ecf\u5ea6\u6821\u9a8c",
+            "ret": true,
+            "msg": null,
+            "img": null
+        },
+        {
+            "name": "\u7eac\u5ea6\u6821\u9a8c",
+            "ret": true,
+            "msg": null,
+            "img": null
+        },
+        {
+            "name": "\u7ecf\u5ea6\u6821\u9a8c",
+            "ret": true,
+            "msg": null,
+            "img": null
+        },
+        {
+            "name": "\u7eac\u5ea6\u6821\u9a8c",
+            "ret": true,
+            "msg": null,
+            "img": null
+        }
+    ],
+    "screen_info": [
+        {
+            "name": "\u7ecf\u5ea6\u6821\u9a8c-success",
+            "url": "/page/API/pages/get-location/get-location",
+            "path": "images/215716.733.jpg",
+            "ts": 1561643836.94291,
+            "datetime": "2019-06-27 21:57:16"
+        },
+        {
+            "name": "\u7eac\u5ea6\u6821\u9a8c-success",
+            "url": "/page/API/pages/get-location/get-location",
+            "path": "images/215718.219.jpg",
+            "ts": 1561643838.40651,
+            "datetime": "2019-06-27 21:57:18"
+        },
+        {
+            "name": "\u7ecf\u5ea6\u6821\u9a8c-success",
+            "url": "/page/API/pages/get-location/get-location",
+            "path": "images/215721.784.jpg",
+            "ts": 1561643841.9743402,
+            "datetime": "2019-06-27 21:57:21"
+        },
+        {
+            "name": "\u7eac\u5ea6\u6821\u9a8c-success",
+            "url": "/page/API/pages/get-location/get-location",
+            "path": "images/215723.235.jpg",
+            "ts": 1561643843.436843,
+            "datetime": "2019-06-27 21:57:23"
+        },
+        {
+            "name": "teardown",
+            "url": "/page/API/pages/get-location/get-location",
+            "path": "images/215724.440.jpg",
+            "ts": 1561643844.631341,
+            "datetime": "2019-06-27 21:57:24"
+        }
+    ],
+    "filename": "test_mock_location.json"
+}

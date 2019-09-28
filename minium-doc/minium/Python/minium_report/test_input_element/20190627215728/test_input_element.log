@@ -1,0 +1,5 @@
+INFO  2019-06-27 21:57:28,884 app.py     relaunch        123 ReLaunch: /page/component/index
+INFO  2019-06-27 21:57:30,533 app.py     navigate_to     97  NavigateTo: pages/input/input
+WARNI 2019-06-27 21:57:30,923 app.py     navigate_to     100 NavigateTo(pages/input/input) fail ! Current page has not change
+INFO  2019-06-27 21:57:30,925 page.py    get_elements    160 try to find elements: .weui-input
+INFO  2019-06-27 21:57:31,497 page.py    get_elements    162 find elements success: [<minium.core.element.BaseElement object at 0x110ea5cf8>, <minium.core.element.BaseElement object at 0x110ea5860>, <minium.core.element.BaseElement object at 0x110ea57b8>, <minium.core.element.BaseElement object at 0x110ea5278>, <minium.core.element.BaseElement object at 0x110ea5da0>, <minium.core.element.BaseElement object at 0x110ea5080>, <minium.core.element.BaseElement object at 0x110ea5358>, <minium.core.element.BaseElement object at 0x110e00978>, <minium.core.element.BaseElement object at 0x110e00be0>, <minium.core.element.BaseElement object at 0x110e00ac8>]

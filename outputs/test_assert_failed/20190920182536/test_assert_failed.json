@@ -1,0 +1,78 @@
+{
+    "case_name": "test_assert_failed",
+    "run_time": "20190920 18:25:36",
+    "test_type": "FirsTest",
+    "case_doc": "\u6d4b\u8bd5assert\u5f02\u5e38\n",
+    "success": false,
+    "failures": "Traceback (most recent call last):\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n  File \"G:\\\u5fae\u4fe1\u5c0f\u7a0b\u5e8f\\minium-0.0.2\\minium-0.0.2\\first_test.py\", line 20, in test_assert_failed\n    self.assertEqual(self.page.path, \"page/component/index\")\n  File \"D:\\Program Files\\Python37\\lib\\site-packages\\minium-0.0.2-py3.7.egg\\minium\\framework\\assertbase.py\", line 170, in _hook_assert\n    attr(*args,**kwargs)\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 839, in assertEqual\n    assertion_func(first, second, msg=msg)\n  File \"D:\\Program Files\\Python37\\lib\\site-packages\\minium-0.0.2-py3.7.egg\\minium\\framework\\assertbase.py\", line 170, in _hook_assert\n    attr(*args,**kwargs)\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 1220, in assertMultiLineEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n  File \"D:\\Program Files\\Python37\\lib\\unittest\\case.py\", line 680, in fail\n    raise self.failureException(msg)\nAssertionError: '/pages/home/user/index' != 'page/component/index'\n- /pages/home/user/index\n+ page/component/index\n\n",
+    "errors": "",
+    "start_timestamp": 1568975136.7974277,
+    "is_failure": true,
+    "is_error": false,
+    "module": "G:.\u5fae\u4fe1\u5c0f\u7a0b\u5e8f.minium-0.0.2.minium-0.0.2.first_test",
+    "failed_line_num": 20,
+    "device": {
+        "system_info": {
+            "model": "iPhone X",
+            "pixelRatio": 3,
+            "windowWidth": 375,
+            "windowHeight": 730,
+            "system": "iOS 10.0.1",
+            "language": "zh",
+            "version": "7.0.4",
+            "screenWidth": 375,
+            "screenHeight": 812,
+            "SDKVersion": "2.8.3",
+            "brand": "devtools",
+            "fontSizeSetting": 16,
+            "batteryLevel": 100,
+            "statusBarHeight": 44,
+            "safeArea": {
+                "right": 375,
+                "bottom": 812,
+                "left": 0,
+                "top": 44,
+                "width": 375,
+                "height": 768
+            },
+            "platform": "devtools"
+        }
+    },
+    "log_filename": "test_assert_failed.log",
+    "weapp_log_path": "weapp.log",
+    "page_data": {
+        "isShow": true,
+        "account": "",
+        "weSession_key": "2cb436a7d5dcf8297245107ea6d5daaa"
+    },
+    "source": {
+        "code": [
+            "  def test_assert_failed(self):\n",
+            "        \"\"\"\n",
+            "        \u6d4b\u8bd5assert\u5f02\u5e38\n",
+            "        \"\"\"\n",
+            "        self.assertIsInstance(self.page.query, dict)\n",
+            "        # \u8fd9\u91cc\u4f1a\u62a5\u9519\n",
+            "        self.assertEqual(self.page.path, \"page/component/index\")\n"
+        ],
+        "start": 14
+    },
+    "stop_timestamp": 1568975140.415427,
+    "check_list": [],
+    "assert_list": [
+        {
+            "name": null,
+            "ret": true,
+            "msg": null,
+            "img": null
+        },
+        {
+            "name": null,
+            "ret": false,
+            "msg": "'/pages/home/user/index' != 'page/component/index'\n- /pages/home/user/index\n+ page/component/index\n",
+            "img": null
+        }
+    ],
+    "screen_info": [],
+    "filename": "test_assert_failed.json"
+}

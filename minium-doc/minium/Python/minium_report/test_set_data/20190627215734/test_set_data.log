@@ -1,0 +1,2 @@
+INFO  2019-06-27 21:57:34,698 app.py     relaunch        123 ReLaunch: /page/component/index
+INFO  2019-06-27 21:57:36,265 app.py     navigate_to     97  NavigateTo: /page/component/pages/text/text

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>MiniTest</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="vendor/themes/vue.css">
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
+    window.$docsify = {
+      name: 'MiniTest',
+      // repo: 'https://git.code.oa.com/minium/',
+      coverpage: true,
+      auto2top: true,
+      loadSidebar: true,
+      subMaxLevel: 5,
+      loadNavbar: true,
+      mergeNavbar: true,
+      homepage: "/minium/readme.md",
+      themeColor: '#008B8B',
+      formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}',
+      // routerMode: 'history',
+      search: 'auto',
+      disqus: 'minium',
+      alias: {
+        '/minium\/Python.*/_sidebar.md': '/minium/Python/_sidebar.md',
+        '/minium\/JavaScript.*/_sidebar.md': '/minium/JavaScript/_sidebar.md',
+        '/_sidebar.md': '/minium/Python/_sidebar.md',
+        '/minium.*/_navbar.md': '/minium/_navbar.md',
+        '/minium.*/readme':'/minium/readme.md'
+      }
+    }
+  </script>
+  <script src="vendor/docsify.js"></script>
+  <script src="vendor/js/prism-bash.js"></script>
+  <script src="vendor/js/prism-python.js"></script>
+  <script src="vendor/js/prism-javascript.js"></script>
+  <script src="vendor/js/prism-markdown.js"></script>
+  <script src="vendor/plugins/zoom-image.js"></script>
+  <script src="vendor/plugins/docsify-copy-code-2.1.0.min.js"></script>
+  <script src="vendor/plugins/search.js"></script>
+  <script src="vendor/plugins/disqus.min.js"></script>
+</body>
+
+</html>

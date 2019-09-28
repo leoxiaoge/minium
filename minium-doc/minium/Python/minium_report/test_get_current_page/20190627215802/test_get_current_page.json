@@ -1,0 +1,180 @@
+{
+    "case_name": "test_get_current_page",
+    "run_time": "20190627 21:58:02",
+    "test_type": "AppTest",
+    "case_doc": null,
+    "success": false,
+    "failures": "",
+    "errors": "Traceback (most recent call last):\n  File \"/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py\", line 59, in testPartExecutor\n    yield\n  File \"/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py\", line 615, in run\n    testMethod()\n  File \"/Users/sherlock/git/minium/miniprogram-demo-test/apptest.py\", line 12, in test_get_current_page\n    self.assertEqual(self.page.path, \"page/component/index\") #\u6709\u9519\u8bef\uff0c\u62a5\u544a\u4f1a\u628a\u8fd9\u884c\u4ee3\u7801\u6807\u7ea2\n  File \"/usr/local/lib/python3.7/site-packages/minium/framework/assertbase.py\", line 225, in _hook_assert\n    attr(*args, **kwargs)\n  File \"/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py\", line 839, in assertEqual\n    assertion_func(first, second, msg=msg)\n  File \"/usr/local/lib/python3.7/site-packages/minium/framework/assertbase.py\", line 225, in _hook_assert\n    attr(*args, **kwargs)\n  File \"/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py\", line 1220, in assertMultiLineEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n  File \"/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py\", line 680, in fail\n    raise self.failureException(msg)\nAssertionError: '/page/component/index' != 'page/component/index'\n- /page/component/index\n? -\n+ page/component/index\n\n",
+    "start_timestamp": 1561643882.2089899,
+    "is_failure": false,
+    "is_error": true,
+    "module": "apptest",
+    "failed_line_num": 12,
+    "device": {
+        "system_info": {
+            "language": "zh_CN",
+            "wifiEnabled": true,
+            "safeArea": {
+                "bottom": 667,
+                "height": 667,
+                "top": 0,
+                "width": 375,
+                "left": 0,
+                "right": 375
+            },
+            "bluetoothEnabled": false,
+            "deviceOrientation": "portrait",
+            "locationAuthorized": true,
+            "screenHeight": 667,
+            "notificationSoundAuthorized": true,
+            "windowHeight": 603,
+            "version": "7.0.4",
+            "system": "iOS 12.3.1",
+            "fontSizeSetting": 17,
+            "notificationAuthorized": true,
+            "statusBarHeight": 20,
+            "windowWidth": 375,
+            "pixelRatio": 2,
+            "notificationBadgeAuthorized": true,
+            "model": "iPhone 6<iPhone7,2>",
+            "screenWidth": 375,
+            "batteryLevel": 100,
+            "locationEnabled": true,
+            "microphoneAuthorized": false,
+            "albumAuthorized": false,
+            "cameraAuthorized": true,
+            "notificationAlertAuthorized": true,
+            "brand": "iPhone",
+            "platform": "ios",
+            "SDKVersion": "2.7.2"
+        }
+    },
+    "log_filename": "test_get_current_page.log",
+    "weapp_log_path": "weapp.log",
+    "page_data": {
+        "list": [
+            {
+                "id": "view",
+                "name": "\u89c6\u56fe\u5bb9\u5668",
+                "open": false,
+                "pages": [
+                    "view",
+                    "scroll-view",
+                    "swiper",
+                    "movable-view",
+                    "cover-view"
+                ]
+            },
+            {
+                "id": "content",
+                "name": "\u57fa\u7840\u5185\u5bb9",
+                "open": false,
+                "pages": [
+                    "text",
+                    "icon",
+                    "progress",
+                    "rich-text"
+                ]
+            },
+            {
+                "id": "form",
+                "name": "\u8868\u5355\u7ec4\u4ef6",
+                "open": false,
+                "pages": [
+                    "button",
+                    "checkbox",
+                    "form",
+                    "input",
+                    "label",
+                    "picker",
+                    "picker-view",
+                    "radio",
+                    "slider",
+                    "switch",
+                    "textarea"
+                ]
+            },
+            {
+                "id": "nav",
+                "name": "\u5bfc\u822a",
+                "open": false,
+                "pages": [
+                    "navigator"
+                ]
+            },
+            {
+                "id": "media",
+                "name": "\u5a92\u4f53\u7ec4\u4ef6",
+                "open": false,
+                "pages": [
+                    "image",
+                    "audio",
+                    "video",
+                    "camera"
+                ]
+            },
+            {
+                "id": "map",
+                "name": "\u5730\u56fe",
+                "open": false,
+                "pages": [
+                    "map"
+                ]
+            },
+            {
+                "id": "canvas",
+                "name": "\u753b\u5e03",
+                "open": false,
+                "pages": [
+                    "canvas"
+                ]
+            },
+            {
+                "id": "open",
+                "name": "\u5f00\u653e\u80fd\u529b",
+                "open": false,
+                "pages": [
+                    "ad",
+                    "open-data",
+                    "web-view"
+                ]
+            }
+        ]
+    },
+    "source": {
+        "code": [
+            "    def test_get_current_page(self):\n",
+            "        self.assertEqual(self.page.path, \"page/component/index\") #\u6709\u9519\u8bef\uff0c\u62a5\u544a\u4f1a\u628a\u8fd9\u884c\u4ee3\u7801\u6807\u7ea2\n",
+            "        self.assertIsInstance(self.page.query, dict)\n"
+        ],
+        "start": 11
+    },
+    "stop_timestamp": 1561643886.206961,
+    "check_list": [],
+    "assert_list": [
+        {
+            "name": null,
+            "ret": false,
+            "msg": "'/page/component/index' != 'page/component/index'\n- /page/component/index\n? -\n+ page/component/index\n",
+            "img": null
+        }
+    ],
+    "screen_info": [
+        {
+            "name": "None-failed",
+            "url": "/page/component/index",
+            "path": "images/215804.769.jpg",
+            "ts": 1561643884.977771,
+            "datetime": "2019-06-27 21:58:04"
+        },
+        {
+            "name": "teardown",
+            "url": "/page/component/index",
+            "path": "images/215805.982.jpg",
+            "ts": 1561643886.204015,
+            "datetime": "2019-06-27 21:58:06"
+        }
+    ],
+    "filename": "test_get_current_page.json"
+}

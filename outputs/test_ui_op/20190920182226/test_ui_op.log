@@ -1,0 +1,13 @@
+INFO  2019-09-20 18:22:26,754 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+WARNI 2019-09-20 18:22:27,761 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_ui_op\20190920182226\images\182227.760.jpg not exists
+ERROR 2019-09-20 18:22:27,797 assertbase.py _teardown_collect 117 assert failed
+Traceback (most recent call last):
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 615, in run
+    testMethod()
+  File "G:\微信小程序\minium-0.0.2\minium-0.0.2\first_test.py", line 15, in test_ui_op
+    self.page.get_element("view", inner_test="视图容器").click()
+  File "D:\Program Files\Python37\lib\site-packages\minium-0.0.2-py3.7.egg\minium\wechatdriver\minium_log.py", line 63, in wrapper
+    result=func(*args,**kwargs)
+TypeError: get_element() got an unexpected keyword argument 'inner_test'

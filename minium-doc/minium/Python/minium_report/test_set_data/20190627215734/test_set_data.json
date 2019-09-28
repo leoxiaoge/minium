@@ -1,0 +1,108 @@
+{
+    "case_name": "test_set_data",
+    "run_time": "20190627 21:57:34",
+    "test_type": "ComponentTest",
+    "case_doc": null,
+    "success": true,
+    "failures": "",
+    "errors": "",
+    "start_timestamp": 1561643854.695006,
+    "is_failure": false,
+    "is_error": false,
+    "module": "componenttest",
+    "failed_line_num": -1,
+    "device": {
+        "system_info": {
+            "language": "zh_CN",
+            "wifiEnabled": true,
+            "safeArea": {
+                "bottom": 667,
+                "height": 647,
+                "top": 20,
+                "width": 375,
+                "left": 0,
+                "right": 375
+            },
+            "bluetoothEnabled": false,
+            "deviceOrientation": "portrait",
+            "locationAuthorized": true,
+            "screenHeight": 667,
+            "notificationSoundAuthorized": true,
+            "windowHeight": 555,
+            "version": "7.0.4",
+            "system": "iOS 12.3.1",
+            "fontSizeSetting": 17,
+            "notificationAuthorized": true,
+            "statusBarHeight": 20,
+            "windowWidth": 375,
+            "pixelRatio": 2,
+            "notificationBadgeAuthorized": true,
+            "model": "iPhone 6<iPhone7,2>",
+            "screenWidth": 375,
+            "batteryLevel": 100,
+            "locationEnabled": true,
+            "microphoneAuthorized": false,
+            "albumAuthorized": false,
+            "cameraAuthorized": true,
+            "notificationAlertAuthorized": true,
+            "brand": "iPhone",
+            "platform": "ios",
+            "SDKVersion": "2.7.2"
+        }
+    },
+    "log_filename": "test_set_data.log",
+    "weapp_log_path": "weapp.log",
+    "page_data": {
+        "text": "\u53ea\u80fd\u5220\u9664\u6587\u5b57\uff0c\u4e0d\u80fd\u52a0\u6587\u5b57",
+        "canAdd": false,
+        "canRemove": true
+    },
+    "source": {
+        "code": [
+            "    def test_set_data(self):\n",
+            "        self.app.navigate_to(\"/page/component/pages/text/text\")\n",
+            "        self.page.data = {\n",
+            "            'text': \"\u53ea\u80fd\u52a0\u6587\u5b57\uff0c\u4e0d\u80fd\u5220\u9664\u6587\u5b57\",\n",
+            "            'canAdd': True,\n",
+            "            'canRemove': False\n",
+            "        }\n",
+            "        time.sleep(1)\n",
+            "        self.capture(\"canAdd\")\n",
+            "        self.page.data = {\n",
+            "            'text': \"\u53ea\u80fd\u5220\u9664\u6587\u5b57\uff0c\u4e0d\u80fd\u52a0\u6587\u5b57\",\n",
+            "            'canAdd': False,\n",
+            "            'canRemove': True\n",
+            "        }\n",
+            "        time.sleep(1)\n",
+            "        self.capture(\"canRemove\")\n"
+        ],
+        "start": 8
+    },
+    "stop_timestamp": 1561643863.14129,
+    "check_list": [],
+    "assert_list": [],
+    "screen_info": [
+        {
+            "name": "canAdd",
+            "url": "/page/component/pages/text/text",
+            "path": "images/215739.403.jpg",
+            "ts": 1561643859.582581,
+            "datetime": "2019-06-27 21:57:39"
+        },
+        {
+            "name": "canRemove",
+            "url": "/page/component/pages/text/text",
+            "path": "images/215741.774.jpg",
+            "ts": 1561643861.955138,
+            "datetime": "2019-06-27 21:57:41"
+        },
+        {
+            "name": "teardown",
+            "url": "/page/component/pages/text/text",
+            "path": "images/215742.958.jpg",
+            "ts": 1561643863.1387992,
+            "datetime": "2019-06-27 21:57:43"
+        }
+    ],
+    "filename": "test_set_data.json"
+}

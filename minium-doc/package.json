@@ -1,0 +1,21 @@
+{
+  "name": "MiniTest-doc",
+  "version": "0.0.1",
+  "description": "MiniTest document",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "docsify serve .",
+    "convert": "node_modules/.bin/docsify-pdf-converter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.code.oa.com/minium/minium-doc.git"
+  },
+  "author": "mmtest",
+  "license": "ISC",
+  "devDependencies": {
+    "docsify-cli": "^4.3.0",
+    "docsify-pdf-converter": "^2.0.7"
+  }
+}

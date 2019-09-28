@@ -1,0 +1,86 @@
+{
+    "case_name": "test_forward",
+    "run_time": "20190627 21:58:25",
+    "test_type": "NativeTest",
+    "case_doc": "\u8f6c\u53d1\u5c0f\u7a0b\u5e8f\u793a\u4f8b\n",
+    "success": true,
+    "failures": "",
+    "errors": "",
+    "start_timestamp": 1561643905.707794,
+    "is_failure": false,
+    "is_error": false,
+    "module": "nativetest",
+    "failed_line_num": -1,
+    "device": {
+        "system_info": {
+            "language": "zh_CN",
+            "wifiEnabled": true,
+            "safeArea": {
+                "bottom": 667,
+                "height": 647,
+                "top": 20,
+                "width": 375,
+                "left": 0,
+                "right": 375
+            },
+            "bluetoothEnabled": false,
+            "deviceOrientation": "portrait",
+            "locationAuthorized": true,
+            "screenHeight": 667,
+            "notificationSoundAuthorized": true,
+            "windowHeight": 555,
+            "version": "7.0.4",
+            "system": "iOS 12.3.1",
+            "fontSizeSetting": 17,
+            "notificationAuthorized": true,
+            "statusBarHeight": 20,
+            "windowWidth": 375,
+            "pixelRatio": 2,
+            "notificationBadgeAuthorized": true,
+            "model": "iPhone 6<iPhone7,2>",
+            "screenWidth": 375,
+            "batteryLevel": 100,
+            "locationEnabled": true,
+            "microphoneAuthorized": false,
+            "albumAuthorized": false,
+            "cameraAuthorized": true,
+            "notificationAlertAuthorized": true,
+            "brand": "iPhone",
+            "platform": "ios",
+            "SDKVersion": "2.7.2"
+        }
+    },
+    "log_filename": "test_forward.log",
+    "weapp_log_path": "weapp.log",
+    "page_data": {},
+    "source": {
+        "code": [
+            "    def test_forward(self):\n",
+            "        \"\"\"\n",
+            "        \u8f6c\u53d1\u5c0f\u7a0b\u5e8f\u793a\u4f8b\n",
+            "        \"\"\"\n",
+            "        # \u4ece\u53f3\u4e0a\u89d2\u83dc\u5355\u4e2d\u8f6c\u53d1 \u6587\u4ef6\u4f20\u8f93\u5c0f\u52a9\u624b \u662f\u5fae\u4fe1\u4e0a\u7684\u8054\u7cfb\u4eba\u6635\u79f0\n",
+            "        self.app.navigate_to(\"/page/API/pages/share/share\")\n",
+            "        self.native.forward_miniprogram(\"\u53cd\u9988\u8ddf\u8fdb\", \"\u8f6c\u53d1\u53d1\u9001\u7684\u6587\u5b57\")\n",
+            "\n",
+            "        # \u5c0f\u7a0b\u5e8f\u5185\u90e8\u8c03\u7528\u8f6c\u53d1\u65b9\u6cd5 aauisendmsg\u662f\u5fae\u4fe1\u4e0a\u7684\u8054\u7cfb\u4eba\u6635\u79f0\n",
+            "        self.app.navigate_to(\"/page/API/pages/share-button/share-button\")\n",
+            "        self.page.get_element(\".button-share\").click()\n",
+            "        self.native.forward_miniprogram_inside(\"\u53cd\u9988\u8ddf\u8fdb\", \"\u8f6c\u53d1\u53d1\u9001\u7684\u6587\u5b57\")\n"
+        ],
+        "start": 56
+    },
+    "stop_timestamp": 1561643979.78052,
+    "check_list": [],
+    "assert_list": [],
+    "screen_info": [
+        {
+            "name": "teardown",
+            "url": "/page/API/pages/share-button/share-button",
+            "path": "images/215939.268.jpg",
+            "ts": 1561643979.778084,
+            "datetime": "2019-06-27 21:59:39"
+        }
+    ],
+    "filename": "test_forward.json"
+}

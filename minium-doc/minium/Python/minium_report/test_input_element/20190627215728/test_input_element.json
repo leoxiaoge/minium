@@ -1,0 +1,84 @@
+{
+    "case_name": "test_input_element",
+    "run_time": "20190627 21:57:28",
+    "test_type": "ComponentTest",
+    "case_doc": null,
+    "success": true,
+    "failures": "",
+    "errors": "",
+    "start_timestamp": 1561643848.8827362,
+    "is_failure": false,
+    "is_error": false,
+    "module": "componenttest",
+    "failed_line_num": -1,
+    "device": {
+        "system_info": {
+            "language": "zh_CN",
+            "wifiEnabled": true,
+            "safeArea": {
+                "bottom": 667,
+                "height": 647,
+                "top": 20,
+                "width": 375,
+                "left": 0,
+                "right": 375
+            },
+            "bluetoothEnabled": false,
+            "deviceOrientation": "portrait",
+            "locationAuthorized": true,
+            "screenHeight": 667,
+            "notificationSoundAuthorized": true,
+            "windowHeight": 555,
+            "version": "7.0.4",
+            "system": "iOS 12.3.1",
+            "fontSizeSetting": 17,
+            "notificationAuthorized": true,
+            "statusBarHeight": 20,
+            "windowWidth": 375,
+            "pixelRatio": 2,
+            "notificationBadgeAuthorized": true,
+            "model": "iPhone 6<iPhone7,2>",
+            "screenWidth": 375,
+            "batteryLevel": 100,
+            "locationEnabled": true,
+            "microphoneAuthorized": false,
+            "albumAuthorized": false,
+            "cameraAuthorized": true,
+            "notificationAlertAuthorized": true,
+            "brand": "iPhone",
+            "platform": "ios",
+            "SDKVersion": "2.7.2"
+        }
+    },
+    "log_filename": "test_input_element.log",
+    "weapp_log_path": "weapp.log",
+    "page_data": {
+        "focus": false,
+        "inputValue": ""
+    },
+    "source": {
+        "code": [
+            "    def test_input_element(self):\n",
+            "        # todo: \u9a71\u52a8\u5bf9\u539f\u751f\u7ec4\u4ef6\u65e0\u53ef\u5948\u4f55\uff0c\u9700\u8981\u8865\u5145native\u65b9\u6cd5\n",
+            "        self.app.navigate_to(\"pages/input/input\")\n",
+            "        es = self.page.get_elements(\".weui-input\")\n",
+            "        print(es[2].inner_text)\n",
+            "        es[2].click()\n",
+            "        es[2].trigger(\"focus\", {\"value\": True})\n"
+        ],
+        "start": 35
+    },
+    "stop_timestamp": 1561643854.694539,
+    "check_list": [],
+    "assert_list": [],
+    "screen_info": [
+        {
+            "name": "teardown",
+            "url": "/page/component/pages/input/input",
+            "path": "images/215734.442.jpg",
+            "ts": 1561643854.691218,
+            "datetime": "2019-06-27 21:57:34"
+        }
+    ],
+    "filename": "test_input_element.json"
+}

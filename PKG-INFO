@@ -1,0 +1,9 @@
+Metadata-Version: 1.2
+Name: minium
+Version: 0.0.2
+Summary: Minium is the best MiniProgram auto test framework.
+Home-page: https://git.code.oa.com/minium/driver.git
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6

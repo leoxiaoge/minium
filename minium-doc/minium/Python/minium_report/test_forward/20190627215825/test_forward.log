@@ -1,0 +1,5 @@
+INFO  2019-06-27 21:58:25,710 app.py     relaunch        123 ReLaunch: /page/component/index
+INFO  2019-06-27 21:58:27,159 app.py     navigate_to     97  NavigateTo: /page/API/pages/share/share
+INFO  2019-06-27 21:59:05,407 app.py     navigate_to     97  NavigateTo: /page/API/pages/share-button/share-button
+INFO  2019-06-27 21:59:08,036 page.py    get_elements    160 try to find elements: .button-share
+INFO  2019-06-27 21:59:08,398 page.py    get_elements    162 find elements success: [<minium.core.element.BaseElement object at 0x110eb1ef0>]

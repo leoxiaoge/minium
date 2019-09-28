@@ -1,0 +1,6 @@
+[console_scripts]
+mininative = minium.native.nativeapp:start_server
+minireport = minium.framework.report:main
+miniruntest = minium.framework.loader:main
+minitest = minium.framework.loader:main
+

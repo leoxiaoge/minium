@@ -1,0 +1,6 @@
+INFO  2019-06-27 21:58:17,363 app.py     relaunch        123 ReLaunch: /page/component/index
+INFO  2019-06-27 21:58:18,994 app.py     navigate_to     97  NavigateTo: /page/API/pages/get-user-info/get-user-info
+INFO  2019-06-27 21:58:19,495 page.py    get_elements    160 try to find elements: button
+INFO  2019-06-27 21:58:19,851 page.py    get_elements    162 find elements success: [<minium.core.element.BaseElement object at 0x110ea53c8>, <minium.core.element.BaseElement object at 0x110ea57f0>]
+INFO  2019-06-27 21:58:21,541 page.py    get_elements    160 try to find elements: button
+INFO  2019-06-27 21:58:21,727 page.py    get_elements    162 find elements success: [<minium.core.element.BaseElement object at 0x110e18908>, <minium.core.element.BaseElement object at 0x110e18f60>]

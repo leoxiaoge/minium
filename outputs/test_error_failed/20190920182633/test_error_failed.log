@@ -1,0 +1,19 @@
+INFO  2019-09-20 18:26:33,794 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+INFO  2019-09-20 18:26:33,797 page.py    _get_elements   108 try to find elements: sunny
+ERROR 2019-09-20 18:26:53,912 page.py    _get_elements   113 elements search fail cause: timeout for refresh_elements
+Traceback (most recent call last):
+  File "D:\Program Files\Python37\lib\site-packages\minium-0.0.2-py3.7.egg\minium\wechatdriver\page.py", line 109, in _get_elements
+    refresh_elements()
+  File "D:\Program Files\Python37\lib\site-packages\minium-0.0.2-py3.7.egg\minium\wechatdriver\minium_object.py", line 18, in wrapper
+    raise TimeoutError("timeout for %s"%func.__name__)
+TimeoutError: timeout for refresh_elements
+WARNI 2019-09-20 18:26:54,920 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_error_failed\20190920182633\images\182654.919.jpg not exists
+ERROR 2019-09-20 18:26:54,928 assertbase.py _teardown_collect 117 assert failed
+Traceback (most recent call last):
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 615, in run
+    testMethod()
+  File "G:\微信小程序\minium-0.0.2\minium-0.0.2\first_test.py", line 26, in test_error_failed
+    self.page.get_element("sunny").click()
+AttributeError: 'NoneType' object has no attribute 'click'

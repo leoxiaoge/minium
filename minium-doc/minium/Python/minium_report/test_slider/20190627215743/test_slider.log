@@ -1,0 +1,5 @@
+INFO  2019-06-27 21:57:43,145 app.py     relaunch        123 ReLaunch: /page/component/index
+INFO  2019-06-27 21:57:44,733 app.py     navigate_to     97  NavigateTo: pages/slider/slider
+WARNI 2019-06-27 21:57:45,289 app.py     navigate_to     100 NavigateTo(pages/slider/slider) fail ! Current page has not change
+INFO  2019-06-27 21:57:45,291 page.py    get_elements    160 try to find elements: slider
+INFO  2019-06-27 21:57:45,663 page.py    get_elements    162 find elements success: [<minium.core.element.BaseElement object at 0x110ea5668>, <minium.core.element.BaseElement object at 0x110ea5c88>, <minium.core.element.BaseElement object at 0x110ea5390>]

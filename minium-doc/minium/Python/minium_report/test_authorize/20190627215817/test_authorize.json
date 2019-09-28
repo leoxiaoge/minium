@@ -1,0 +1,110 @@
+{
+    "case_name": "test_authorize",
+    "run_time": "20190627 21:58:17",
+    "test_type": "NativeTest",
+    "case_doc": "\u8f85\u52a9\u70b9\u51fb\u6388\u6743\n",
+    "success": true,
+    "failures": "",
+    "errors": "",
+    "start_timestamp": 1561643897.360408,
+    "is_failure": false,
+    "is_error": false,
+    "module": "nativetest",
+    "failed_line_num": -1,
+    "device": {
+        "system_info": {
+            "language": "zh_CN",
+            "wifiEnabled": true,
+            "safeArea": {
+                "bottom": 667,
+                "height": 647,
+                "top": 20,
+                "width": 375,
+                "left": 0,
+                "right": 375
+            },
+            "bluetoothEnabled": false,
+            "deviceOrientation": "portrait",
+            "locationAuthorized": true,
+            "screenHeight": 667,
+            "notificationSoundAuthorized": true,
+            "windowHeight": 555,
+            "version": "7.0.4",
+            "system": "iOS 12.3.1",
+            "fontSizeSetting": 17,
+            "notificationAuthorized": true,
+            "statusBarHeight": 20,
+            "windowWidth": 375,
+            "pixelRatio": 2,
+            "notificationBadgeAuthorized": true,
+            "model": "iPhone 6<iPhone7,2>",
+            "screenWidth": 375,
+            "batteryLevel": 100,
+            "locationEnabled": true,
+            "microphoneAuthorized": false,
+            "albumAuthorized": false,
+            "cameraAuthorized": true,
+            "notificationAlertAuthorized": true,
+            "brand": "iPhone",
+            "platform": "ios",
+            "SDKVersion": "2.7.2"
+        }
+    },
+    "log_filename": "test_authorize.log",
+    "weapp_log_path": "weapp.log",
+    "page_data": {
+        "hasUserInfo": true,
+        "userInfo": {
+            "nickName": "\u53cd\u9988\u8ddf\u8fdb",
+            "gender": 1,
+            "language": "zh_CN",
+            "city": "Guangzhou",
+            "province": "Guangdong",
+            "country": "China",
+            "avatarUrl": "https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIaSWJ92ItRTVWP0tvsfH32lVia7YuXsohzTE9cqgV0nUYm1v0m10EoGK7hP48KiaZLVv5Pib4DcYqAA/132"
+        }
+    },
+    "source": {
+        "code": [
+            "    def test_authorize(self):\n",
+            "        \"\"\"\n",
+            "        \u8f85\u52a9\u70b9\u51fb\u6388\u6743\n",
+            "        \"\"\"\n",
+            "        self.app.navigate_to(\"/page/API/pages/get-user-info/get-user-info\")\n",
+            "        self.page.get_element(\"button\", inner_text=\"\u83b7\u53d6\u7528\u6237\u4fe1\u606f\").click()\n",
+            "        self.native.allow_get_user_info(False)\n",
+            "        self.page.get_element(\"button\", inner_text=\"\u83b7\u53d6\u7528\u6237\u4fe1\u606f\").click()\n",
+            "        self.native.allow_get_user_info(True)\n",
+            "        ret = self.page.wait_data_contains([\"userInfo\", \"nickName\"])\n",
+            "        self.assertTrue(ret, \"\u83b7\u53d6\u4e2a\u4eba\u4fe1\u606f\")\n"
+        ],
+        "start": 44
+    },
+    "stop_timestamp": 1561643905.7072818,
+    "check_list": [],
+    "assert_list": [
+        {
+            "name": "\u83b7\u53d6\u4e2a\u4eba\u4fe1\u606f",
+            "ret": true,
+            "msg": null,
+            "img": null
+        }
+    ],
+    "screen_info": [
+        {
+            "name": "\u83b7\u53d6\u4e2a\u4eba\u4fe1\u606f-success",
+            "url": "/page/API/pages/get-user-info/get-user-info",
+            "path": "images/215824.292.jpg",
+            "ts": 1561643904.494682,
+            "datetime": "2019-06-27 21:58:24"
+        },
+        {
+            "name": "teardown",
+            "url": "/page/API/pages/get-user-info/get-user-info",
+            "path": "images/215825.499.jpg",
+            "ts": 1561643905.7045271,
+            "datetime": "2019-06-27 21:58:25"
+        }
+    ],
+    "filename": "test_authorize.json"
+}

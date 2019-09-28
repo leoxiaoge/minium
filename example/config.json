@@ -1,0 +1,17 @@
+{
+  "debug_mode": "debug",
+  "project_pathxx": "/Users/mmtest/code/weapp/demo",
+  "enable_app_log": false,
+  "platform": "ide",
+  "dev_tool_path": "path/to/devTool",
+  "not_restore": true,
+  "device_desire":{
+    "wda_project_path": "/Users/sherlock/github/appium/WebDriverAgent",
+    "device_info": {
+      "udid": "aee531018e668ff1aadee0889f5ebe21a2292...",
+      "model": "iPhone XR",
+      "version": "12.2.5",
+      "name": "sherlock's iPhone"
+    }
+  }
+}

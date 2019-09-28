@@ -1,0 +1,4 @@
+INFO  2019-09-20 18:27:37,743 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+WARNI 2019-09-20 18:27:38,795 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_assert_failed\20190920182737\images\182738.791.jpg not exists
+WARNI 2019-09-20 18:27:39,805 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_assert_failed\20190920182737\images\182739.805.jpg not exists
+WARNI 2019-09-20 18:27:41,612 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_assert_failed\20190920182737\images\182741.612.jpg not exists

@@ -1,0 +1,438 @@
+INFO  2019-09-20 17:07:39,046 minium.py  __init__        46  {'version': '0.0.2', 'revision': '995f7fb858f6c3511c48f55bd3e80a33d37b7140', 'branch': 'master', 'update_at': '2019-08-20 21:29:47'}
+INFO  2019-09-20 17:07:39,047 minium.py  launch_dev_tool 76  Starting dev tool ...
+INFO  2019-09-20 17:07:39,183 connection.py _connect        55  connect to WebChatTools successfully
+ERROR 2019-09-20 17:07:39,195 connection.py _on_message     116 abandon msg: 0d70d28e-72e5-48f8-94c8-b5d42df1d211
+ERROR 2019-09-20 17:07:39,204 connection.py _on_message     116 abandon msg: ac96a7a2-efc3-48c7-ad58-464d90ddebc2
+INFO  2019-09-20 17:07:39,235 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+WARNI 2019-09-20 17:07:40,299 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_get_system_info\20190920170739\images\170740.297.jpg not exists
+WARNI 2019-09-20 17:07:41,302 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_get_system_info\20190920170739\images\170741.302.jpg not exists
+INFO  2019-09-20 17:07:41,423 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+INFO  2019-09-20 17:07:41,424 app.py     navigate_to     106 NavigateTo: /pages/selfservice/orderSelf/historyOrder/historyOrder
+INFO  2019-09-20 17:07:46,595 page.py    _get_elements   108 try to find elements: button
+INFO  2019-09-20 17:07:46,604 page.py    _get_elements   110 find elements success: [<minium.wechatdriver.element.BaseElement object at 0x000001BF821A8F60>, <minium.wechatdriver.element.BaseElement object at 0x000001BF8217A978>, <minium.wechatdriver.element.BaseElement object at 0x000001BF8217AA90>, <minium.wechatdriver.element.BaseElement object at 0x000001BF8217ABE0>, <minium.wechatdriver.element.BaseElement object at 0x000001BF821C66D8>, <minium.wechatdriver.element.BaseElement object at 0x000001BF821C64E0>, <minium.wechatdriver.element.BaseElement object at 0x000001BF821C6A90>, <minium.wechatdriver.element.BaseElement object at 0x000001BF821C67B8>, <minium.wechatdriver.element.BaseElement object at 0x000001BF821C67F0>]
+WARNI 2019-09-20 17:07:48,659 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_modal\20190920170741\images\170748.658.jpg not exists
+INFO  2019-09-20 17:09:36,935 minium.py  __init__        46  {'version': '0.0.2', 'revision': '995f7fb858f6c3511c48f55bd3e80a33d37b7140', 'branch': 'master', 'update_at': '2019-08-20 21:29:47'}
+INFO  2019-09-20 17:09:36,936 minium.py  launch_dev_tool 76  Starting dev tool ...
+INFO  2019-09-20 17:09:37,174 connection.py _connect        55  connect to WebChatTools successfully
+ERROR 2019-09-20 17:09:37,182 connection.py _on_message     116 abandon msg: f926147f-0418-4b65-b36c-d285db073bd7
+ERROR 2019-09-20 17:09:37,185 connection.py _on_message     116 abandon msg: 4fc2f51a-2b17-47e0-9eeb-ec24a1dc7450
+INFO  2019-09-20 17:09:37,220 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+WARNI 2019-09-20 17:09:38,289 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_get_system_info\20190920170937\images\170938.280.jpg not exists
+WARNI 2019-09-20 17:09:39,293 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_get_system_info\20190920170937\images\170939.293.jpg not exists
+INFO  2019-09-20 17:09:39,308 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+INFO  2019-09-20 17:09:39,310 app.py     navigate_to     106 NavigateTo: /pages/selfservice/orderSelf/historyOrder/historyOrder
+INFO  2019-09-20 17:09:44,582 page.py    _get_elements   108 try to find elements: button
+INFO  2019-09-20 17:09:44,602 page.py    _get_elements   110 find elements success: [<minium.wechatdriver.element.BaseElement object at 0x000001918D759EF0>, <minium.wechatdriver.element.BaseElement object at 0x000001918D72AD30>, <minium.wechatdriver.element.BaseElement object at 0x000001918D72ABE0>, <minium.wechatdriver.element.BaseElement object at 0x000001918D777400>, <minium.wechatdriver.element.BaseElement object at 0x000001918D777710>, <minium.wechatdriver.element.BaseElement object at 0x000001918D777A20>, <minium.wechatdriver.element.BaseElement object at 0x000001918D777080>, <minium.wechatdriver.element.BaseElement object at 0x000001918D777550>, <minium.wechatdriver.element.BaseElement object at 0x000001918D777748>]
+WARNI 2019-09-20 17:09:46,656 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_modal\20190920170939\images\170946.655.jpg not exists
+INFO  2019-09-20 17:23:57,708 minium.py  __init__        46  {'version': '0.0.2', 'revision': '995f7fb858f6c3511c48f55bd3e80a33d37b7140', 'branch': 'master', 'update_at': '2019-08-20 21:29:47'}
+INFO  2019-09-20 17:23:57,709 minium.py  launch_dev_tool 76  Starting dev tool ...
+INFO  2019-09-20 17:23:58,151 connection.py _connect        55  connect to WebChatTools successfully
+ERROR 2019-09-20 17:23:58,159 connection.py _on_message     116 abandon msg: 29cce7ed-2027-493d-bba2-e0bf05f30869
+ERROR 2019-09-20 17:23:58,162 connection.py _on_message     116 abandon msg: ed1ee4c2-74a1-425b-85da-b6900856ab50
+INFO  2019-09-20 17:23:58,325 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+WARNI 2019-09-20 17:23:59,376 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_get_system_info\20190920172358\images\172359.375.jpg not exists
+WARNI 2019-09-20 17:24:00,378 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_get_system_info\20190920172358\images\172400.378.jpg not exists
+INFO  2019-09-20 17:24:00,428 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+INFO  2019-09-20 17:24:00,430 app.py     navigate_to     106 NavigateTo: /pages/selfservice/orderSelf/historyOrder/historyOrder
+INFO  2019-09-20 17:24:05,722 page.py    _get_elements   108 try to find elements: button
+INFO  2019-09-20 17:24:05,731 page.py    _get_elements   110 find elements success: [<minium.wechatdriver.element.BaseElement object at 0x000001F094A3BE80>, <minium.wechatdriver.element.BaseElement object at 0x000001F094A3BEF0>, <minium.wechatdriver.element.BaseElement object at 0x000001F094B2A3C8>, <minium.wechatdriver.element.BaseElement object at 0x000001F094B2A208>, <minium.wechatdriver.element.BaseElement object at 0x000001F094B2A358>, <minium.wechatdriver.element.BaseElement object at 0x000001F094B2A160>, <minium.wechatdriver.element.BaseElement object at 0x000001F094B2ACF8>, <minium.wechatdriver.element.BaseElement object at 0x000001F094B2A9B0>, <minium.wechatdriver.element.BaseElement object at 0x000001F094B2A9E8>]
+WARNI 2019-09-20 17:24:07,774 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_modal\20190920172400\images\172407.773.jpg not exists
+INFO  2019-09-20 18:22:16,884 minium.py  __init__        46  {'version': '0.0.2', 'revision': '995f7fb858f6c3511c48f55bd3e80a33d37b7140', 'branch': 'master', 'update_at': '2019-08-20 21:29:47'}
+INFO  2019-09-20 18:22:16,885 minium.py  launch_dev_tool 76  Starting dev tool ...
+INFO  2019-09-20 18:22:17,222 connection.py _connect        55  connect to WebChatTools successfully
+ERROR 2019-09-20 18:22:17,231 connection.py _on_message     116 abandon msg: 396e2910-cdc6-4fc9-a645-86961c6ad9bb
+ERROR 2019-09-20 18:22:17,234 connection.py _on_message     116 abandon msg: becfcb6d-d13e-4f09-912d-32545ed1b6e8
+INFO  2019-09-20 18:22:17,256 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+WARNI 2019-09-20 18:22:18,313 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_get_system_info\20190920182217\images\182218.312.jpg not exists
+WARNI 2019-09-20 18:22:19,316 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_get_system_info\20190920182217\images\182219.316.jpg not exists
+INFO  2019-09-20 18:22:19,331 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+INFO  2019-09-20 18:22:19,332 app.py     navigate_to     106 NavigateTo: /pages/selfservice/orderSelf/historyOrder/historyOrder
+INFO  2019-09-20 18:22:24,623 page.py    _get_elements   108 try to find elements: button
+INFO  2019-09-20 18:22:24,631 page.py    _get_elements   110 find elements success: [<minium.wechatdriver.element.BaseElement object at 0x0000024534678FD0>, <minium.wechatdriver.element.BaseElement object at 0x0000024534678F28>, <minium.wechatdriver.element.BaseElement object at 0x0000024534678DD8>, <minium.wechatdriver.element.BaseElement object at 0x00000245346B57B8>, <minium.wechatdriver.element.BaseElement object at 0x00000245346B56D8>, <minium.wechatdriver.element.BaseElement object at 0x00000245346B5668>, <minium.wechatdriver.element.BaseElement object at 0x00000245346B5470>, <minium.wechatdriver.element.BaseElement object at 0x00000245346B56A0>, <minium.wechatdriver.element.BaseElement object at 0x00000245346B5940>]
+INFO  2019-09-20 18:22:24,893 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:22:24,894 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:22:24,895 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:22:24,896 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:22:24,897 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:22:24,897 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:22:24,898 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:22:24,898 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:22:24,899 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:22:24,900 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:22:24,900 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:22:24,902 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:22:24,906 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:22:24,907 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:22:24,907 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:22:24,908 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:22:24,909 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:22:24,909 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:22:24,910 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:22:24,911 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+WARNI 2019-09-20 18:22:26,740 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_modal\20190920182219\images\182226.737.jpg not exists
+INFO  2019-09-20 18:22:26,754 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+WARNI 2019-09-20 18:22:27,761 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_ui_op\20190920182226\images\182227.760.jpg not exists
+ERROR 2019-09-20 18:22:27,797 assertbase.py _teardown_collect 117 assert failed
+Traceback (most recent call last):
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 615, in run
+    testMethod()
+  File "G:\微信小程序\minium-0.0.2\minium-0.0.2\first_test.py", line 15, in test_ui_op
+    self.page.get_element("view", inner_test="视图容器").click()
+  File "D:\Program Files\Python37\lib\site-packages\minium-0.0.2-py3.7.egg\minium\wechatdriver\minium_log.py", line 63, in wrapper
+    result=func(*args,**kwargs)
+TypeError: get_element() got an unexpected keyword argument 'inner_test'
+INFO  2019-09-20 18:24:38,656 minium.py  __init__        46  {'version': '0.0.2', 'revision': '995f7fb858f6c3511c48f55bd3e80a33d37b7140', 'branch': 'master', 'update_at': '2019-08-20 21:29:47'}
+INFO  2019-09-20 18:24:38,658 minium.py  launch_dev_tool 76  Starting dev tool ...
+INFO  2019-09-20 18:24:38,875 connection.py _connect        55  connect to WebChatTools successfully
+ERROR 2019-09-20 18:24:38,906 connection.py _on_message     116 abandon msg: 6fc84b9c-fd31-483d-92a6-b5d15ad1890c
+ERROR 2019-09-20 18:24:38,929 connection.py _on_message     116 abandon msg: 63f79034-d526-42c3-b67f-0e366e85f0e3
+INFO  2019-09-20 18:24:38,986 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+WARNI 2019-09-20 18:24:40,040 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_get_system_info\20190920182438\images\182440.39.jpg not exists
+WARNI 2019-09-20 18:24:41,044 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_get_system_info\20190920182438\images\182441.44.jpg not exists
+INFO  2019-09-20 18:24:41,058 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+INFO  2019-09-20 18:24:41,060 app.py     navigate_to     106 NavigateTo: /pages/selfservice/orderSelf/historyOrder/historyOrder
+INFO  2019-09-20 18:24:46,344 page.py    _get_elements   108 try to find elements: button
+INFO  2019-09-20 18:24:46,352 page.py    _get_elements   110 find elements success: [<minium.wechatdriver.element.BaseElement object at 0x000001E02FA176D8>, <minium.wechatdriver.element.BaseElement object at 0x000001E02FA17358>, <minium.wechatdriver.element.BaseElement object at 0x000001E037A8A470>, <minium.wechatdriver.element.BaseElement object at 0x000001E037A8AAC8>, <minium.wechatdriver.element.BaseElement object at 0x000001E037A8A400>, <minium.wechatdriver.element.BaseElement object at 0x000001E037A8A978>, <minium.wechatdriver.element.BaseElement object at 0x000001E037A8AE48>, <minium.wechatdriver.element.BaseElement object at 0x000001E037A8AE10>, <minium.wechatdriver.element.BaseElement object at 0x000001E037A8AD68>]
+INFO  2019-09-20 18:24:46,593 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:24:46,594 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:24:46,594 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:24:46,595 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:24:46,596 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:24:46,596 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:24:46,597 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:24:46,597 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:24:46,598 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:24:46,599 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:24:46,599 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:24:46,600 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:24:46,600 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:24:46,601 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:24:46,601 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:24:46,602 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:24:46,603 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:24:46,603 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:24:46,604 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:24:46,605 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:24:46,605 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+WARNI 2019-09-20 18:24:48,408 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_modal\20190920182441\images\182448.405.jpg not exists
+INFO  2019-09-20 18:25:36,396 minium.py  __init__        46  {'version': '0.0.2', 'revision': '995f7fb858f6c3511c48f55bd3e80a33d37b7140', 'branch': 'master', 'update_at': '2019-08-20 21:29:47'}
+INFO  2019-09-20 18:25:36,397 minium.py  launch_dev_tool 76  Starting dev tool ...
+INFO  2019-09-20 18:25:36,764 connection.py _connect        55  connect to WebChatTools successfully
+ERROR 2019-09-20 18:25:36,771 connection.py _on_message     116 abandon msg: 8496c968-f090-488f-8adb-3b44fec9ac3a
+ERROR 2019-09-20 18:25:36,776 connection.py _on_message     116 abandon msg: 11ff06d9-9d0a-4156-9b4a-f9092715ebc0
+INFO  2019-09-20 18:25:36,800 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+WARNI 2019-09-20 18:25:38,383 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_assert_failed\20190920182536\images\182537.846.jpg not exists
+WARNI 2019-09-20 18:25:39,395 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_assert_failed\20190920182536\images\182539.395.jpg not exists
+WARNI 2019-09-20 18:25:40,402 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_assert_failed\20190920182536\images\182540.402.jpg not exists
+ERROR 2019-09-20 18:25:40,413 assertbase.py _teardown_collect 117 assert failed
+Traceback (most recent call last):
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 615, in run
+    testMethod()
+  File "G:\微信小程序\minium-0.0.2\minium-0.0.2\first_test.py", line 20, in test_assert_failed
+    self.assertEqual(self.page.path, "page/component/index")
+  File "D:\Program Files\Python37\lib\site-packages\minium-0.0.2-py3.7.egg\minium\framework\assertbase.py", line 170, in _hook_assert
+    attr(*args,**kwargs)
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Program Files\Python37\lib\site-packages\minium-0.0.2-py3.7.egg\minium\framework\assertbase.py", line 170, in _hook_assert
+    attr(*args,**kwargs)
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 1220, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: '/pages/home/user/index' != 'page/component/index'
+- /pages/home/user/index
++ page/component/index
+
+INFO  2019-09-20 18:25:40,422 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+INFO  2019-09-20 18:25:40,428 page.py    _get_elements   108 try to find elements: sunny
+ERROR 2019-09-20 18:26:00,513 page.py    _get_elements   113 elements search fail cause: timeout for refresh_elements
+Traceback (most recent call last):
+  File "D:\Program Files\Python37\lib\site-packages\minium-0.0.2-py3.7.egg\minium\wechatdriver\page.py", line 109, in _get_elements
+    refresh_elements()
+  File "D:\Program Files\Python37\lib\site-packages\minium-0.0.2-py3.7.egg\minium\wechatdriver\minium_object.py", line 18, in wrapper
+    raise TimeoutError("timeout for %s"%func.__name__)
+TimeoutError: timeout for refresh_elements
+WARNI 2019-09-20 18:26:01,801 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_error_failed\20190920182540\images\182601.517.jpg not exists
+ERROR 2019-09-20 18:26:01,808 assertbase.py _teardown_collect 117 assert failed
+Traceback (most recent call last):
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 615, in run
+    testMethod()
+  File "G:\微信小程序\minium-0.0.2\minium-0.0.2\first_test.py", line 26, in test_error_failed
+    self.page.get_element("sunny").click()
+AttributeError: 'NoneType' object has no attribute 'click'
+INFO  2019-09-20 18:26:01,816 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+WARNI 2019-09-20 18:26:02,844 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_get_system_info\20190920182601\images\182602.842.jpg not exists
+WARNI 2019-09-20 18:26:03,847 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_get_system_info\20190920182601\images\182603.847.jpg not exists
+INFO  2019-09-20 18:26:03,860 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+INFO  2019-09-20 18:26:03,861 app.py     navigate_to     106 NavigateTo: /pages/selfservice/orderSelf/historyOrder/historyOrder
+INFO  2019-09-20 18:26:09,074 page.py    _get_elements   108 try to find elements: button
+INFO  2019-09-20 18:26:09,084 page.py    _get_elements   110 find elements success: [<minium.wechatdriver.element.BaseElement object at 0x000001AD8515FF98>, <minium.wechatdriver.element.BaseElement object at 0x000001AD8C580940>, <minium.wechatdriver.element.BaseElement object at 0x000001AD8515FFD0>, <minium.wechatdriver.element.BaseElement object at 0x000001AD8CB147B8>, <minium.wechatdriver.element.BaseElement object at 0x000001AD8CB144E0>, <minium.wechatdriver.element.BaseElement object at 0x000001AD8CB14BE0>, <minium.wechatdriver.element.BaseElement object at 0x000001AD8CB14AC8>, <minium.wechatdriver.element.BaseElement object at 0x000001AD8CB14A90>, <minium.wechatdriver.element.BaseElement object at 0x000001AD8CB14C50>]
+INFO  2019-09-20 18:26:09,334 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:26:09,335 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:26:09,336 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:26:09,336 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:26:09,337 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:26:09,338 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:26:09,338 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:26:09,339 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:26:09,339 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:26:09,341 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:26:09,342 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:26:09,343 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:26:09,343 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:26:09,344 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:26:09,345 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:26:09,345 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:26:09,346 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:26:09,347 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:26:09,347 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:26:09,348 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:26:09,349 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:26:09,350 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+WARNI 2019-09-20 18:26:11,626 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_modal\20190920182603\images\182611.624.jpg not exists
+INFO  2019-09-20 18:26:30,522 minium.py  __init__        46  {'version': '0.0.2', 'revision': '995f7fb858f6c3511c48f55bd3e80a33d37b7140', 'branch': 'master', 'update_at': '2019-08-20 21:29:47'}
+INFO  2019-09-20 18:26:30,523 minium.py  launch_dev_tool 76  Starting dev tool ...
+INFO  2019-09-20 18:26:30,576 connection.py _connect        55  connect to WebChatTools successfully
+ERROR 2019-09-20 18:26:30,628 connection.py _on_message     116 abandon msg: afd64532-168c-47d2-89b0-044a871e5dcd
+ERROR 2019-09-20 18:26:30,647 connection.py _on_message     116 abandon msg: a9e47e17-0e19-4579-9af7-da3b65401488
+INFO  2019-09-20 18:26:30,712 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+WARNI 2019-09-20 18:26:31,764 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_assert_failed\20190920182630\images\182631.763.jpg not exists
+WARNI 2019-09-20 18:26:32,777 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_assert_failed\20190920182630\images\182632.777.jpg not exists
+WARNI 2019-09-20 18:26:33,780 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_assert_failed\20190920182630\images\182633.780.jpg not exists
+INFO  2019-09-20 18:26:33,794 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+INFO  2019-09-20 18:26:33,797 page.py    _get_elements   108 try to find elements: sunny
+ERROR 2019-09-20 18:26:53,912 page.py    _get_elements   113 elements search fail cause: timeout for refresh_elements
+Traceback (most recent call last):
+  File "D:\Program Files\Python37\lib\site-packages\minium-0.0.2-py3.7.egg\minium\wechatdriver\page.py", line 109, in _get_elements
+    refresh_elements()
+  File "D:\Program Files\Python37\lib\site-packages\minium-0.0.2-py3.7.egg\minium\wechatdriver\minium_object.py", line 18, in wrapper
+    raise TimeoutError("timeout for %s"%func.__name__)
+TimeoutError: timeout for refresh_elements
+WARNI 2019-09-20 18:26:54,920 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_error_failed\20190920182633\images\182654.919.jpg not exists
+ERROR 2019-09-20 18:26:54,928 assertbase.py _teardown_collect 117 assert failed
+Traceback (most recent call last):
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 615, in run
+    testMethod()
+  File "G:\微信小程序\minium-0.0.2\minium-0.0.2\first_test.py", line 26, in test_error_failed
+    self.page.get_element("sunny").click()
+AttributeError: 'NoneType' object has no attribute 'click'
+INFO  2019-09-20 18:26:54,935 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+WARNI 2019-09-20 18:26:55,956 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_get_system_info\20190920182654\images\182655.952.jpg not exists
+WARNI 2019-09-20 18:26:56,961 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_get_system_info\20190920182654\images\182656.961.jpg not exists
+INFO  2019-09-20 18:26:57,119 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+INFO  2019-09-20 18:26:57,120 app.py     navigate_to     106 NavigateTo: /pages/selfservice/orderSelf/historyOrder/historyOrder
+INFO  2019-09-20 18:27:02,355 page.py    _get_elements   108 try to find elements: button
+INFO  2019-09-20 18:27:02,364 page.py    _get_elements   110 find elements success: [<minium.wechatdriver.element.BaseElement object at 0x000001F7A360DC50>, <minium.wechatdriver.element.BaseElement object at 0x000001F7A360DB70>, <minium.wechatdriver.element.BaseElement object at 0x000001F7AB6B6CF8>, <minium.wechatdriver.element.BaseElement object at 0x000001F7AB6B6898>, <minium.wechatdriver.element.BaseElement object at 0x000001F7AB6B67B8>, <minium.wechatdriver.element.BaseElement object at 0x000001F7AB6B6F98>, <minium.wechatdriver.element.BaseElement object at 0x000001F7AB6B6B38>, <minium.wechatdriver.element.BaseElement object at 0x000001F7AB6B6CC0>, <minium.wechatdriver.element.BaseElement object at 0x000001F7AB6B6D68>]
+INFO  2019-09-20 18:27:02,612 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:02,612 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:02,613 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:02,614 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:02,614 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:02,615 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:02,615 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:02,616 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:02,617 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:02,617 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:02,619 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:02,619 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:02,620 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:02,621 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:02,621 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:02,622 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:02,623 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:02,626 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:02,627 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:02,627 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:02,628 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:02,628 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:02,629 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+WARNI 2019-09-20 18:27:04,431 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_modal\20190920182657\images\182704.429.jpg not exists
+INFO  2019-09-20 18:27:37,517 minium.py  __init__        46  {'version': '0.0.2', 'revision': '995f7fb858f6c3511c48f55bd3e80a33d37b7140', 'branch': 'master', 'update_at': '2019-08-20 21:29:47'}
+INFO  2019-09-20 18:27:37,518 minium.py  launch_dev_tool 76  Starting dev tool ...
+INFO  2019-09-20 18:27:37,713 connection.py _connect        55  connect to WebChatTools successfully
+ERROR 2019-09-20 18:27:37,720 connection.py _on_message     116 abandon msg: bf283482-0bba-4806-9dd4-b696a3a3bb93
+ERROR 2019-09-20 18:27:37,724 connection.py _on_message     116 abandon msg: e7004f96-ff5a-4bbb-ad34-218cb41f24f3
+INFO  2019-09-20 18:27:37,743 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+WARNI 2019-09-20 18:27:38,795 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_assert_failed\20190920182737\images\182738.791.jpg not exists
+WARNI 2019-09-20 18:27:39,805 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_assert_failed\20190920182737\images\182739.805.jpg not exists
+WARNI 2019-09-20 18:27:41,612 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_assert_failed\20190920182737\images\182741.612.jpg not exists
+INFO  2019-09-20 18:27:41,639 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+WARNI 2019-09-20 18:27:42,650 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_error_failed\20190920182741\images\182742.649.jpg not exists
+INFO  2019-09-20 18:27:42,981 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+WARNI 2019-09-20 18:27:43,996 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_get_system_info\20190920182742\images\182743.995.jpg not exists
+WARNI 2019-09-20 18:27:44,999 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_get_system_info\20190920182742\images\182744.999.jpg not exists
+INFO  2019-09-20 18:27:45,010 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+INFO  2019-09-20 18:27:45,011 app.py     navigate_to     106 NavigateTo: /pages/selfservice/orderSelf/historyOrder/historyOrder
+INFO  2019-09-20 18:27:50,333 page.py    _get_elements   108 try to find elements: button
+INFO  2019-09-20 18:27:50,342 page.py    _get_elements   110 find elements success: [<minium.wechatdriver.element.BaseElement object at 0x000002A215759048>, <minium.wechatdriver.element.BaseElement object at 0x000002A215759F98>, <minium.wechatdriver.element.BaseElement object at 0x000002A2157744E0>, <minium.wechatdriver.element.BaseElement object at 0x000002A215774400>, <minium.wechatdriver.element.BaseElement object at 0x000002A215774DA0>, <minium.wechatdriver.element.BaseElement object at 0x000002A215774B38>, <minium.wechatdriver.element.BaseElement object at 0x000002A215774080>, <minium.wechatdriver.element.BaseElement object at 0x000002A215774208>, <minium.wechatdriver.element.BaseElement object at 0x000002A2157745F8>]
+INFO  2019-09-20 18:27:50,871 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:50,873 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:50,874 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:50,876 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:50,877 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:50,878 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:50,879 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:50,880 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:50,881 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:50,882 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:50,883 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:50,883 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:50,884 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:50,884 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:50,885 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:50,886 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:50,886 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:50,887 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:50,888 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:50,888 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:50,889 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:50,891 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:50,892 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:27:50,893 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/home/user/index', 'query': {}, 'openType': 'navigateBack'}]}
+WARNI 2019-09-20 18:27:52,412 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_modal\20190920182745\images\182752.411.jpg not exists
+INFO  2019-09-20 18:31:41,458 minium.py  __init__        46  {'version': '0.0.2', 'revision': '995f7fb858f6c3511c48f55bd3e80a33d37b7140', 'branch': 'master', 'update_at': '2019-08-20 21:29:47'}
+INFO  2019-09-20 18:31:41,459 minium.py  launch_dev_tool 76  Starting dev tool ...
+INFO  2019-09-20 18:31:41,845 connection.py _connect        55  connect to WebChatTools successfully
+ERROR 2019-09-20 18:31:41,855 connection.py _on_message     116 abandon msg: 04fd218b-ee1c-4f20-88cc-15ffda24a927
+ERROR 2019-09-20 18:31:41,862 connection.py _on_message     116 abandon msg: 1e928fc6-b7b4-4b35-9466-7cfd0350b0e3
+INFO  2019-09-20 18:31:41,891 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+WARNI 2019-09-20 18:31:42,946 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_assert_failed\20190920183141\images\183142.945.jpg not exists
+WARNI 2019-09-20 18:31:43,960 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_assert_failed\20190920183141\images\183143.960.jpg not exists
+WARNI 2019-09-20 18:31:44,962 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_assert_failed\20190920183141\images\183144.962.jpg not exists
+ERROR 2019-09-20 18:31:44,972 assertbase.py _teardown_collect 117 assert failed
+Traceback (most recent call last):
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 615, in run
+    testMethod()
+  File "G:\微信小程序\minium-0.0.2\minium-0.0.2\first_test.py", line 20, in test_assert_failed
+    self.assertEqual(self.page.path, "/pages/home/user/index")
+  File "D:\Program Files\Python37\lib\site-packages\minium-0.0.2-py3.7.egg\minium\framework\assertbase.py", line 170, in _hook_assert
+    attr(*args,**kwargs)
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Program Files\Python37\lib\site-packages\minium-0.0.2-py3.7.egg\minium\framework\assertbase.py", line 170, in _hook_assert
+    attr(*args,**kwargs)
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 1220, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: '/pages/home/selfservice/index' != '/pages/home/user/index'
+- /pages/home/selfservice/index
+?             ^^^^   ----
++ /pages/home/user/index
+?             ^
+
+INFO  2019-09-20 18:31:44,981 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+WARNI 2019-09-20 18:31:45,987 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_error_failed\20190920183144\images\183145.986.jpg not exists
+INFO  2019-09-20 18:31:46,048 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+WARNI 2019-09-20 18:31:47,063 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_get_system_info\20190920183146\images\183147.62.jpg not exists
+WARNI 2019-09-20 18:31:48,076 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_get_system_info\20190920183146\images\183148.76.jpg not exists
+INFO  2019-09-20 18:31:48,258 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+INFO  2019-09-20 18:31:48,262 app.py     navigate_to     106 NavigateTo: /pages/selfservice/orderSelf/historyOrder/historyOrder
+INFO  2019-09-20 18:31:53,759 page.py    _get_elements   108 try to find elements: button
+INFO  2019-09-20 18:31:53,767 page.py    _get_elements   110 find elements success: [<minium.wechatdriver.element.BaseElement object at 0x00000178BC4EE278>, <minium.wechatdriver.element.BaseElement object at 0x00000178BBE27390>, <minium.wechatdriver.element.BaseElement object at 0x00000178C3E84B00>, <minium.wechatdriver.element.BaseElement object at 0x00000178C3E84B38>, <minium.wechatdriver.element.BaseElement object at 0x00000178C3E84BA8>, <minium.wechatdriver.element.BaseElement object at 0x00000178C3E840B8>, <minium.wechatdriver.element.BaseElement object at 0x00000178C3E84E10>, <minium.wechatdriver.element.BaseElement object at 0x00000178C3E84358>, <minium.wechatdriver.element.BaseElement object at 0x00000178C3E84DD8>]
+INFO  2019-09-20 18:31:54,033 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,034 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,035 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,035 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,036 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,037 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,037 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,038 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,038 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,039 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,040 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,042 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,042 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,043 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,044 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,044 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,045 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,046 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,046 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,047 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,048 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,048 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,049 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,050 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:31:54,050 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+WARNI 2019-09-20 18:31:55,829 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_modal\20190920183148\images\183155.828.jpg not exists
+INFO  2019-09-20 18:32:28,141 minium.py  __init__        46  {'version': '0.0.2', 'revision': '995f7fb858f6c3511c48f55bd3e80a33d37b7140', 'branch': 'master', 'update_at': '2019-08-20 21:29:47'}
+INFO  2019-09-20 18:32:28,142 minium.py  launch_dev_tool 76  Starting dev tool ...
+INFO  2019-09-20 18:32:28,175 connection.py _connect        55  connect to WebChatTools successfully
+ERROR 2019-09-20 18:32:28,184 connection.py _on_message     116 abandon msg: e490d8fe-772c-4132-ae95-133110b9e5f9
+ERROR 2019-09-20 18:32:28,188 connection.py _on_message     116 abandon msg: 12f459fa-fb12-4a86-a5da-5042f21b59f9
+INFO  2019-09-20 18:32:28,205 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+WARNI 2019-09-20 18:32:29,264 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_assert_failed\20190920183228\images\183229.263.jpg not exists
+WARNI 2019-09-20 18:32:30,278 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_assert_failed\20190920183228\images\183230.278.jpg not exists
+WARNI 2019-09-20 18:32:31,281 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_assert_failed\20190920183228\images\183231.281.jpg not exists
+ERROR 2019-09-20 18:32:31,293 assertbase.py _teardown_collect 117 assert failed
+Traceback (most recent call last):
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 615, in run
+    testMethod()
+  File "G:\微信小程序\minium-0.0.2\minium-0.0.2\first_test.py", line 20, in test_assert_failed
+    self.assertEqual(self.page.path, "/pages/home/user/index")
+  File "D:\Program Files\Python37\lib\site-packages\minium-0.0.2-py3.7.egg\minium\framework\assertbase.py", line 170, in _hook_assert
+    attr(*args,**kwargs)
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 839, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Program Files\Python37\lib\site-packages\minium-0.0.2-py3.7.egg\minium\framework\assertbase.py", line 170, in _hook_assert
+    attr(*args,**kwargs)
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 1220, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Program Files\Python37\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+AssertionError: '/pages/home/selfservice/index' != '/pages/home/user/index'
+- /pages/home/selfservice/index
+?             ^^^^   ----
++ /pages/home/user/index
+?             ^
+
+INFO  2019-09-20 18:32:31,302 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+WARNI 2019-09-20 18:32:32,603 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_error_failed\20190920183231\images\183232.311.jpg not exists
+INFO  2019-09-20 18:32:32,638 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+WARNI 2019-09-20 18:32:33,657 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_get_system_info\20190920183232\images\183233.655.jpg not exists
+WARNI 2019-09-20 18:32:34,659 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_get_system_info\20190920183232\images\183234.659.jpg not exists
+INFO  2019-09-20 18:32:34,672 assertbase.py _setup_log      107 {'platform': 'ide', 'debug_mode': 'info', 'close_ide': False, 'no_assert_capture': False, 'auto_relaunch': False, 'device_desire': {}, 'report_usage': True, 'remote_connect_timeout': 180, 'is_default_config': True, 'outputs': 'G:\\微信小程序\\minium-0.0.2\\minium-0.0.2\\outputs'}
+INFO  2019-09-20 18:32:34,674 app.py     navigate_to     106 NavigateTo: /pages/selfservice/orderSelf/historyOrder/historyOrder
+INFO  2019-09-20 18:32:39,904 page.py    _get_elements   108 try to find elements: button
+INFO  2019-09-20 18:32:39,915 page.py    _get_elements   110 find elements success: [<minium.wechatdriver.element.BaseElement object at 0x0000025C9AF248D0>, <minium.wechatdriver.element.BaseElement object at 0x0000025C9AF24EB8>, <minium.wechatdriver.element.BaseElement object at 0x0000025CA28C3F98>, <minium.wechatdriver.element.BaseElement object at 0x0000025CA28C3668>, <minium.wechatdriver.element.BaseElement object at 0x0000025CA28C3D68>, <minium.wechatdriver.element.BaseElement object at 0x0000025CA28C3828>, <minium.wechatdriver.element.BaseElement object at 0x0000025CA28C3710>, <minium.wechatdriver.element.BaseElement object at 0x0000025CA28C3D30>, <minium.wechatdriver.element.BaseElement object at 0x0000025CA28C3DD8>]
+INFO  2019-09-20 18:32:40,177 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,178 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,179 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,180 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,181 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,181 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,182 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,182 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,185 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,186 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,188 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,189 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,190 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,191 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,191 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,192 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,194 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,195 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,197 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,197 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,198 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,198 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,199 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,199 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,201 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+INFO  2019-09-20 18:32:40,204 app.py     _on_route_changed 72  Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 8, 'path': 'pages/home/selfservice/index', 'query': {}, 'openType': 'navigateBack'}]}
+WARNI 2019-09-20 18:32:41,965 minitest.py capture         99  G:\微信小程序\minium-0.0.2\minium-0.0.2\outputs\test_modal\20190920183234\images\183241.956.jpg not exists

@@ -1,0 +1,90 @@
+{
+    "case_name": "test_ui_op",
+    "run_time": "20190627 21:57:47",
+    "test_type": "ComponentTest",
+    "case_doc": null,
+    "success": true,
+    "failures": "",
+    "errors": "",
+    "start_timestamp": 1561643867.707943,
+    "is_failure": false,
+    "is_error": false,
+    "module": "componenttest",
+    "failed_line_num": -1,
+    "device": {
+        "system_info": {
+            "language": "zh_CN",
+            "wifiEnabled": true,
+            "safeArea": {
+                "bottom": 667,
+                "height": 647,
+                "top": 20,
+                "width": 375,
+                "left": 0,
+                "right": 375
+            },
+            "bluetoothEnabled": false,
+            "deviceOrientation": "portrait",
+            "locationAuthorized": true,
+            "screenHeight": 667,
+            "notificationSoundAuthorized": true,
+            "windowHeight": 555,
+            "version": "7.0.4",
+            "system": "iOS 12.3.1",
+            "fontSizeSetting": 17,
+            "notificationAuthorized": true,
+            "statusBarHeight": 20,
+            "windowWidth": 375,
+            "pixelRatio": 2,
+            "notificationBadgeAuthorized": true,
+            "model": "iPhone 6<iPhone7,2>",
+            "screenWidth": 375,
+            "batteryLevel": 100,
+            "locationEnabled": true,
+            "microphoneAuthorized": false,
+            "albumAuthorized": false,
+            "cameraAuthorized": true,
+            "notificationAlertAuthorized": true,
+            "brand": "iPhone",
+            "platform": "ios",
+            "SDKVersion": "2.7.2"
+        }
+    },
+    "log_filename": "test_ui_op.log",
+    "weapp_log_path": "weapp.log",
+    "page_data": {
+        "background": [
+            "demo-text-1",
+            "demo-text-2",
+            "demo-text-3"
+        ],
+        "indicatorDots": true,
+        "vertical": false,
+        "autoplay": false,
+        "interval": 2000,
+        "duration": 500
+    },
+    "source": {
+        "code": [
+            "    def test_ui_op(self):\n",
+            "        self.page.get_element(\"view\", inner_text=\"\u89c6\u56fe\u5bb9\u5668\").click()\n",
+            "        self.page.get_element(\".navigator-text\", inner_text=\"swiper\").click()\n",
+            "        self.page.get_elements(\"switch\")[0].click()\n",
+            "        self.page.get_elements(\"switch\")[1].click()\n"
+        ],
+        "start": 25
+    },
+    "stop_timestamp": 1561643878.2356522,
+    "check_list": [],
+    "assert_list": [],
+    "screen_info": [
+        {
+            "name": "teardown",
+            "url": "/page/component/pages/swiper/swiper",
+            "path": "images/215758.58.jpg",
+            "ts": 1561643878.233215,
+            "datetime": "2019-06-27 21:57:58"
+        }
+    ],
+    "filename": "test_ui_op.json"
+}
