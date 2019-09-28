@@ -46,7 +46,7 @@ Checkout
 
 ```shell
 
-git clone https://git.weixin.qq.com/minitest/minium-doc
+git clone https://github.com/leoxiaoge/minium/tree/master/minium-doc
 
 ```
 
