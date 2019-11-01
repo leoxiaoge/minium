@@ -20,3 +20,5 @@ class ComponentTest(minium.MiniTest):
     }
     time.sleep(1)
     self.captrue("canRamove")
+    self.page.data("button")
+    
